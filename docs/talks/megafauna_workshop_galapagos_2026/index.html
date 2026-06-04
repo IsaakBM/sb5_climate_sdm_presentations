@@ -28,7 +28,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-8205ee71b0a4a15223b845d564c098bd.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-a5e0851817ade8215ebaaab1cddff63a.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -153,166 +153,195 @@ Climate projections, biological data readiness, and first-generation SDMs
 Shared framing
 </h2>
 <p>
-Climate projections, uncertainty, and interpretation
+How to read the models
 </p>
 </div>
 </section>
-<section id="why-start-here" class="slide level2 technical-white" data-background-color="white">
-<h2>Why start here?</h2>
+<section id="shared-framing" class="slide level2 technical-white" data-background-color="white">
+<h2>Shared framing</h2>
 <div class="sb5-header">
 IKI - Salvando a los Cinco Azules (SB5)
 </div>
 <h2 class="slide-title">
-Why start here?
+How to read the models
 </h2>
-<p>Participants bring different backgrounds: climate modeling, marine ecology, data curation, species modeling, and conservation planning. This opening section aligns expectations before we interpret data products or SDM outputs.</p>
+<p class="framing-lead">
+Before using maps or SDM outputs, we need a shared way to interpret them.
+</p>
 <ul>
-<li>We need a shared language before discussing model outputs.</li>
-<li>We need to separate evidence, assumptions, and interpretation.</li>
-<li>We need feedback that improves the workflow, not just the slides.</li>
+<li>Projections are “what-if” futures</li>
+<li>Uncertainty comes from the full workflow</li>
+<li>SDMs estimate suitability, not certainty</li>
+<li>Outputs are decision-support tools, not final answers</li>
 </ul>
-<div class="sb5-footer">
-isaaksonbm · ibrito@conservation.org
-</div>
 </section>
-<section id="the-objective-is-shared-interpretation" class="slide level2 technical-white" data-background-color="white">
-<h2>The objective is shared interpretation</h2>
+<section id="projection-not-prediction" class="slide level2 technical-white" data-background-color="white">
+<h2>Projection not prediction</h2>
 <div class="sb5-header">
 IKI - Salvando a los Cinco Azules (SB5)
 </div>
 <h2 class="slide-title">
-The objective is shared interpretation
+Projection ≠ prediction
 </h2>
-<p>This section is not technical training. It establishes a common framing for discussions throughout the workshop.</p>
-<ul>
-<li>What can climate projections tell us?</li>
-<li>What should not be over-interpreted?</li>
-<li>Where do assumptions enter the workflow?</li>
-<li>How should outputs support conservation planning?</li>
-</ul>
-<div class="sb5-footer">
-isaaksonbm · ibrito@conservation.org
+<div class="definition-grid">
+<div class="definition-card">
+<h3>
+Prediction
+</h3>
+<p>
+“This is what will happen.”
+</p>
 </div>
+<div class="definition-card">
+<h3>
+Projection
+</h3>
+<p>
+“This is what could happen under these assumptions.”
+</p>
+</div>
+</div>
+<p class="key-message">
+For this workshop, climate projections help us explore plausible futures, not identify one exact future.
+</p>
 </section>
-<section id="projections-are-conditional-futures" class="slide level2 technical-white" data-background-color="white">
-<h2>Projections are conditional futures</h2>
+<section id="where-uncertainty-enters" class="slide level2 technical-white" data-background-color="white">
+<h2>Where uncertainty enters</h2>
 <div class="sb5-header">
 IKI - Salvando a los Cinco Azules (SB5)
 </div>
 <h2 class="slide-title">
-Climate projections vs predictions
+Where uncertainty enters
 </h2>
-<p>Climate projections are not deterministic predictions. They describe plausible futures conditional on emissions pathways, model structure, realizations, downscaling choices, and interpretation assumptions.</p>
-<div class="pipeline">
+<p class="framing-lead">
+Uncertainty comes from the full chain.
+</p>
+<div class="chain">
 <div>
 Climate scenario
 </div>
+<span>→</span>
 <div>
-Model family
+Climate model
 </div>
+<span>→</span>
 <div>
-Ensemble member
+Model run
 </div>
+<span>→</span>
 <div>
-Downscaled product
+Downscaling method
 </div>
+<span>→</span>
+<div>
+Depth layer / variable choice
+</div>
+<span>→</span>
+<div>
+Biological records
+</div>
+<span>→</span>
+<div>
+SDM algorithm
+</div>
+<span>→</span>
 <div>
 Conservation interpretation
 </div>
 </div>
-<div class="sb5-footer">
-isaaksonbm · ibrito@conservation.org
-</div>
+<p class="key-message">
+Uncertainty is not failure; it tells us where to be cautious.
+</p>
 </section>
-<section id="uncertainty-is-part-of-responsible-use" class="slide level2 technical-white" data-background-color="white">
-<h2>Uncertainty is part of responsible use</h2>
+<section id="climate-side-uncertainty" class="slide level2 technical-white" data-background-color="white">
+<h2>Climate-side uncertainty</h2>
 <div class="sb5-header">
 IKI - Salvando a los Cinco Azules (SB5)
 </div>
 <h2 class="slide-title">
-Interpretation of uncertainty
+Climate-side uncertainty
 </h2>
-<p>Uncertainty is not a failure of the workflow. It is information about where interpretation should be careful, where additional data would help, and where decisions should remain robust to multiple plausible futures.</p>
-<div class="two-col">
-<div>
-<p><strong>Climate and ocean products</strong></p>
 <ul>
-<li>model and scenario uncertainty</li>
-<li>ensemble member variability</li>
-<li>downscaling assumptions</li>
+<li>Scenario: which future climate pathway?</li>
+<li>Model: which global climate model?</li>
+<li>Run: which realization / initial conditions?</li>
+<li>Downscaling: how do we move from coarse to regional?</li>
+<li>Depth / variables: surface, mid-water, seafloor, oxygen, temperature, currents, etc.</li>
 </ul>
-</div>
-<div>
-<p><strong>Ecological interpretation</strong></p>
-<ul>
-<li>biological sampling bias</li>
-<li>SDM algorithm uncertainty</li>
-<li>conservation-use uncertainty</li>
-</ul>
-</div>
-</div>
-<div class="sb5-footer">
-isaaksonbm · ibrito@conservation.org
-</div>
 </section>
-<section id="sdms-depend-on-assumptions" class="slide level2 technical-white" data-background-color="white">
-<h2>SDMs depend on assumptions</h2>
+<section id="biological-and-sdm-uncertainty" class="slide level2 technical-white" data-background-color="white">
+<h2>Biological and SDM uncertainty</h2>
 <div class="sb5-header">
 IKI - Salvando a los Cinco Azules (SB5)
 </div>
 <h2 class="slide-title">
-Limitations and assumptions associated with SDMs
+Biological and SDM uncertainty
 </h2>
-<p>SDMs connect species records to environmental predictors, but the result depends on the data, predictor choices, modeling algorithm, spatial scale, and interpretation of habitat suitability.</p>
 <ul>
-<li>Records are not always evenly sampled across space or time.</li>
-<li>Environmental predictors are simplifications of ecological processes.</li>
-<li>Model performance does not automatically imply ecological truth.</li>
-<li>Outputs are strongest when interpreted with expert knowledge.</li>
+<li>Records: where do we have data, and where are gaps?</li>
+<li>Sampling bias: absent, or just not sampled?</li>
+<li>Predictors: which variables define the niche?</li>
+<li>Algorithm: which statistical approach?</li>
+<li>Suitability: suitable does not always mean present, abundant, or critical habitat.</li>
 </ul>
-<div class="sb5-footer">
-isaaksonbm · ibrito@conservation.org
-</div>
 </section>
-<section id="model-outputs-are-planning-inputs" class="slide level2 technical-white" data-background-color="white">
-<h2>Model outputs are planning inputs</h2>
+<section id="what-sdms-show" class="slide level2 technical-white" data-background-color="white">
+<h2>What SDMs show</h2>
 <div class="sb5-header">
 IKI - Salvando a los Cinco Azules (SB5)
 </div>
 <h2 class="slide-title">
-Appropriate use in conservation planning
+SDMs estimate environmental suitability
 </h2>
-<p>Model outputs should support conservation discussion, prioritization, and scenario thinking. They should not be treated as final maps of where conservation action must happen.</p>
+<p>They do not directly show:</p>
+<div class="not-list">
 <ul>
-<li>Use outputs to compare patterns and identify questions.</li>
-<li>Communicate confidence and uncertainty alongside maps.</li>
-<li>Avoid over-interpreting fine-scale boundaries.</li>
-<li>Link model interpretation to feasible planning decisions.</li>
+<li>confirmed presence</li>
+<li>abundance</li>
+<li>reproduction</li>
+<li>population trends</li>
+<li>management priority by themselves</li>
 </ul>
-<div class="sb5-footer">
-isaaksonbm · ibrito@conservation.org
 </div>
+<p class="key-message">
+Suitable ≠ occupied ≠ important habitat
+</p>
 </section>
-<section id="working-rule-for-the-workshop" class="slide level2 technical-white" data-background-color="white">
-<h2>Working rule for the workshop</h2>
+<section id="how-we-use-the-outputs" class="slide level2 technical-white" data-background-color="white">
+<h2>How we use the outputs</h2>
 <div class="sb5-header">
 IKI - Salvando a los Cinco Azules (SB5)
 </div>
 <h2 class="slide-title">
-Working rule for the workshop
+Use model outputs as decision-support
 </h2>
-<p>Model outputs should guide discussion, prioritization, and improvement. They should not be treated as final conservation truth without considering data coverage, model assumptions, and uncertainty.</p>
-<div class="questions">
+<p>They can help identify:</p>
 <ul>
-<li>Where are the patterns useful?</li>
-<li>Where are they fragile?</li>
-<li>Which assumptions need to be stated more clearly?</li>
-<li>What would make the next version more decision-relevant?</li>
+<li>possible climate exposure</li>
+<li>future suitable areas</li>
+<li>data gaps</li>
+<li>areas needing monitoring</li>
+<li>places where planning may need to be adaptive</li>
 </ul>
+<p class="key-message">
+Interpret outputs with expert knowledge, local context, and governance feasibility.
+</p>
+</section>
+<section id="workshop-rule" class="slide level2 technical-white" data-background-color="white">
+<h2>Workshop rule</h2>
+<div class="sb5-header">
+IKI - Salvando a los Cinco Azules (SB5)
 </div>
-<div class="sb5-footer">
-isaaksonbm · ibrito@conservation.org
-</div>
+<h2 class="slide-title">
+The goal is not to find “the perfect map”
+</h2>
+<p>The goal is to ask:</p>
+<ul>
+<li>What patterns are consistent?</li>
+<li>What looks uncertain?</li>
+<li>What needs expert review?</li>
+<li>What can improve in the next version?</li>
+</ul>
 </section>
 <section id="from-data-to-climate-informed-sdms" class="slide level2 technical-white" data-background-color="white">
 <h2>From data to climate-informed SDMs</h2>
@@ -948,7 +977,7 @@ isaaksonbm · ibrito@conservation.org
         height: 700,
 
         // Factor of the display size that should remain empty around the content
-        margin: 4.0e-2,
+        margin: 1.5e-2,
 
         math: {
           mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',

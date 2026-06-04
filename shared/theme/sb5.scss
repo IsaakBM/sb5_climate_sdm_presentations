@@ -13,13 +13,14 @@ $link-color: $sb5-blue;
 $presentation-heading-color: $sb5-blue;
 $presentation-heading-font-weight: 800;
 $presentation-heading-letter-spacing: 0;
-$font-family-sans-serif: "Aptos", "Arial", sans-serif;
-$presentation-font-size-root: 34px;
+$font-family-sans-serif: "Proxima Nova", "Aptos", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+$presentation-font-size-root: 24px;
 
 /*-- scss:rules --*/
 
 .reveal {
   color: $sb5-dark;
+  font-family: "Proxima Nova", "Aptos", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
 }
 
 .reveal .slides {
@@ -34,8 +35,8 @@ $presentation-font-size-root: 34px;
 }
 
 .reveal h2 {
-  font-size: 1.45em;
-  margin-bottom: 0.55em;
+  font-size: 1.18em;
+  margin-bottom: 0.42em;
 }
 
 .reveal section.section-photo > h2:not(.slide-title),
@@ -46,14 +47,16 @@ $presentation-font-size-root: 34px;
 
 .reveal h2.slide-title {
   color: $sb5-blue;
-  font-size: 1.45em;
+  font-size: 1.42em;
+  line-height: 1.04;
   margin: 0 0 0.55em 0;
   text-transform: uppercase;
 }
 
 .reveal p,
 .reveal li {
-  line-height: 1.25;
+  line-height: 1.18;
+  font-size: 0.92em;
 }
 
 .reveal ul {
@@ -71,13 +74,13 @@ $presentation-font-size-root: 34px;
 
 .sb5-header {
   color: $sb5-gray;
-  font-size: 0.7em;
+  font-size: 0.82em;
   font-weight: 800;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   border-bottom: 3px solid $sb5-gray;
   padding-bottom: 0.35em;
-  margin-bottom: 0.8em;
+  margin-bottom: 0.68em;
 }
 
 .sb5-footer {
@@ -111,7 +114,7 @@ $presentation-font-size-root: 34px;
 .technical-white {
   background: #ffffff;
   color: $sb5-dark;
-  padding: 1.65rem 3.2rem 2.2rem 3.2rem;
+  padding: 1.25rem 1.65rem 1.8rem 1.65rem;
 }
 
 .technical-white h2 {
@@ -262,7 +265,7 @@ $presentation-font-size-root: 34px;
 
 .section-title-panel {
   position: absolute;
-  left: 3.2rem;
+  left: 2.2rem;
   top: 2rem;
   max-width: 70%;
   background: rgba(0, 79, 105, 0.72);
@@ -273,12 +276,12 @@ $presentation-font-size-root: 34px;
 .section-title-panel h2 {
   color: white;
   margin: 0 0 0.25rem 0;
-  font-size: 1.45em;
+  font-size: 1.65em;
 }
 
 .section-title-panel p {
   margin: 0;
-  font-size: 0.82em;
+  font-size: 0.95em;
 }
 
 .photo-panel .text-panel {
@@ -318,7 +321,7 @@ $presentation-font-size-root: 34px;
 
 .app-demo .screenshot {
   width: 100%;
-  max-height: 500px;
+  max-height: 440px;
   object-fit: contain;
 }
 
@@ -332,7 +335,7 @@ $presentation-font-size-root: 34px;
 .two-col {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.25rem;
+  gap: 1rem;
   align-items: start;
 }
 
@@ -361,6 +364,7 @@ $presentation-font-size-root: 34px;
   background: #f4f7f9;
   padding: 0.65rem 0.75rem;
   min-height: 3.2rem;
+  font-size: 0.82em;
 }
 
 .metric-grid strong {
@@ -372,25 +376,93 @@ $presentation-font-size-root: 34px;
 .pipeline {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 0.55rem;
-  margin-top: 1rem;
+  gap: 0.42rem;
+  margin-top: 0.8rem;
 }
 
 .pipeline > div {
-  border-top: 5px solid $sb5-blue;
+  border-top: 4px solid $sb5-blue;
   background: #f4f7f9;
-  padding: 0.75rem;
-  min-height: 4.5rem;
-  font-size: 0.7em;
+  padding: 0.55rem;
+  min-height: 3.1rem;
+  font-size: 0.68em;
   font-weight: 700;
 }
 
 .questions {
-  font-size: 0.88em;
+  font-size: 0.9em;
 }
 
 .repo-note {
   font-size: 0.68em;
   color: $sb5-gray;
+  margin-top: 0.6rem;
+}
+
+.framing-lead {
+  max-width: 88%;
+  font-size: 1.04em;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.definition-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.85rem;
+  margin: 0.8rem 0 0.9rem 0;
+}
+
+.definition-card {
+  background: #f4f7f9;
+  border-top: 4px solid $sb5-blue;
+  padding: 0.72rem 0.82rem;
+}
+
+.definition-card h3 {
+  color: $sb5-navy;
+  font-size: 0.9em;
+  margin: 0 0 0.35rem 0;
+  text-transform: none;
+}
+
+.definition-card p {
+  margin: 0;
+}
+
+.chain {
+  display: flex;
+  align-items: stretch;
+  gap: 0.32rem;
+  margin-top: 0.85rem;
+}
+
+.chain > div {
+  flex: 1;
+  background: #f4f7f9;
+  border-top: 4px solid $sb5-blue;
+  color: $sb5-dark;
+  font-size: 0.62em;
+  font-weight: 800;
+  padding: 0.45rem 0.5rem;
+  min-height: 2.65rem;
+}
+
+.chain > span {
+  align-self: center;
+  color: $sb5-blue;
+  font-weight: 800;
+}
+
+.key-message {
+  margin-top: 0.85rem;
+  color: $sb5-navy;
+  font-size: 1em;
+  font-weight: 800;
+}
+
+.not-list {
+  columns: 2;
+  column-gap: 1.2rem;
   margin-top: 0.6rem;
 }

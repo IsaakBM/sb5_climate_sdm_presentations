@@ -11,56 +11,63 @@
     "href": "talks/megafauna_workshop_galapagos_2026/index.html#shared-framing-climate-projections-uncertainty-and-interpretation",
     "title": "SB5 Climate SDM Presentations",
     "section": "Shared framing: climate projections, uncertainty, and interpretation",
-    "text": "Shared framing: climate projections, uncertainty, and interpretation\n\n\nShared framing\n\n\nClimate projections, uncertainty, and interpretation"
+    "text": "Shared framing: climate projections, uncertainty, and interpretation\n\n\nShared framing\n\n\nHow to read the models"
   },
   {
-    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#why-start-here",
-    "href": "talks/megafauna_workshop_galapagos_2026/index.html#why-start-here",
+    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#shared-framing",
+    "href": "talks/megafauna_workshop_galapagos_2026/index.html#shared-framing",
     "title": "SB5 Climate SDM Presentations",
-    "section": "Why start here?",
-    "text": "Why start here?\n\nIKI - Salvando a los Cinco Azules (SB5)\n\n\nWhy start here?\n\nParticipants bring different backgrounds: climate modeling, marine ecology, data curation, species modeling, and conservation planning. This opening section aligns expectations before we interpret data products or SDM outputs.\n\nWe need a shared language before discussing model outputs.\nWe need to separate evidence, assumptions, and interpretation.\nWe need feedback that improves the workflow, not just the slides.\n\n\nisaaksonbm · ibrito@conservation.org"
+    "section": "Shared framing",
+    "text": "Shared framing\n\nIKI - Salvando a los Cinco Azules (SB5)\n\n\nHow to read the models\n\n\nBefore using maps or SDM outputs, we need a shared way to interpret them.\n\n\nProjections are “what-if” futures\nUncertainty comes from the full workflow\nSDMs estimate suitability, not certainty\nOutputs are decision-support tools, not final answers"
   },
   {
-    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#the-objective-is-shared-interpretation",
-    "href": "talks/megafauna_workshop_galapagos_2026/index.html#the-objective-is-shared-interpretation",
+    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#projection-not-prediction",
+    "href": "talks/megafauna_workshop_galapagos_2026/index.html#projection-not-prediction",
     "title": "SB5 Climate SDM Presentations",
-    "section": "The objective is shared interpretation",
-    "text": "The objective is shared interpretation\n\nIKI - Salvando a los Cinco Azules (SB5)\n\n\nThe objective is shared interpretation\n\nThis section is not technical training. It establishes a common framing for discussions throughout the workshop.\n\nWhat can climate projections tell us?\nWhat should not be over-interpreted?\nWhere do assumptions enter the workflow?\nHow should outputs support conservation planning?\n\n\nisaaksonbm · ibrito@conservation.org"
+    "section": "Projection not prediction",
+    "text": "Projection not prediction\n\nIKI - Salvando a los Cinco Azules (SB5)\n\n\nProjection ≠ prediction\n\n\n\n\nPrediction\n\n\n“This is what will happen.”\n\n\n\n\nProjection\n\n\n“This is what could happen under these assumptions.”\n\n\n\n\nFor this workshop, climate projections help us explore plausible futures, not identify one exact future."
   },
   {
-    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#projections-are-conditional-futures",
-    "href": "talks/megafauna_workshop_galapagos_2026/index.html#projections-are-conditional-futures",
+    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#where-uncertainty-enters",
+    "href": "talks/megafauna_workshop_galapagos_2026/index.html#where-uncertainty-enters",
     "title": "SB5 Climate SDM Presentations",
-    "section": "Projections are conditional futures",
-    "text": "Projections are conditional futures\n\nIKI - Salvando a los Cinco Azules (SB5)\n\n\nClimate projections vs predictions\n\nClimate projections are not deterministic predictions. They describe plausible futures conditional on emissions pathways, model structure, realizations, downscaling choices, and interpretation assumptions.\n\n\nClimate scenario\n\n\nModel family\n\n\nEnsemble member\n\n\nDownscaled product\n\n\nConservation interpretation\n\n\n\nisaaksonbm · ibrito@conservation.org"
+    "section": "Where uncertainty enters",
+    "text": "Where uncertainty enters\n\nIKI - Salvando a los Cinco Azules (SB5)\n\n\nWhere uncertainty enters\n\n\nUncertainty comes from the full chain.\n\n\n\nClimate scenario\n\n→\n\nClimate model\n\n→\n\nModel run\n\n→\n\nDownscaling method\n\n→\n\nDepth layer / variable choice\n\n→\n\nBiological records\n\n→\n\nSDM algorithm\n\n→\n\nConservation interpretation\n\n\n\nUncertainty is not failure; it tells us where to be cautious."
   },
   {
-    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#uncertainty-is-part-of-responsible-use",
-    "href": "talks/megafauna_workshop_galapagos_2026/index.html#uncertainty-is-part-of-responsible-use",
+    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#climate-side-uncertainty",
+    "href": "talks/megafauna_workshop_galapagos_2026/index.html#climate-side-uncertainty",
     "title": "SB5 Climate SDM Presentations",
-    "section": "Uncertainty is part of responsible use",
-    "text": "Uncertainty is part of responsible use\n\nIKI - Salvando a los Cinco Azules (SB5)\n\n\nInterpretation of uncertainty\n\nUncertainty is not a failure of the workflow. It is information about where interpretation should be careful, where additional data would help, and where decisions should remain robust to multiple plausible futures.\n\n\nClimate and ocean products\n\nmodel and scenario uncertainty\nensemble member variability\ndownscaling assumptions\n\n\n\nEcological interpretation\n\nbiological sampling bias\nSDM algorithm uncertainty\nconservation-use uncertainty\n\n\n\n\nisaaksonbm · ibrito@conservation.org"
+    "section": "Climate-side uncertainty",
+    "text": "Climate-side uncertainty\n\nIKI - Salvando a los Cinco Azules (SB5)\n\n\nClimate-side uncertainty\n\n\nScenario: which future climate pathway?\nModel: which global climate model?\nRun: which realization / initial conditions?\nDownscaling: how do we move from coarse to regional?\nDepth / variables: surface, mid-water, seafloor, oxygen, temperature, currents, etc."
   },
   {
-    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#sdms-depend-on-assumptions",
-    "href": "talks/megafauna_workshop_galapagos_2026/index.html#sdms-depend-on-assumptions",
+    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#biological-and-sdm-uncertainty",
+    "href": "talks/megafauna_workshop_galapagos_2026/index.html#biological-and-sdm-uncertainty",
     "title": "SB5 Climate SDM Presentations",
-    "section": "SDMs depend on assumptions",
-    "text": "SDMs depend on assumptions\n\nIKI - Salvando a los Cinco Azules (SB5)\n\n\nLimitations and assumptions associated with SDMs\n\nSDMs connect species records to environmental predictors, but the result depends on the data, predictor choices, modeling algorithm, spatial scale, and interpretation of habitat suitability.\n\nRecords are not always evenly sampled across space or time.\nEnvironmental predictors are simplifications of ecological processes.\nModel performance does not automatically imply ecological truth.\nOutputs are strongest when interpreted with expert knowledge.\n\n\nisaaksonbm · ibrito@conservation.org"
+    "section": "Biological and SDM uncertainty",
+    "text": "Biological and SDM uncertainty\n\nIKI - Salvando a los Cinco Azules (SB5)\n\n\nBiological and SDM uncertainty\n\n\nRecords: where do we have data, and where are gaps?\nSampling bias: absent, or just not sampled?\nPredictors: which variables define the niche?\nAlgorithm: which statistical approach?\nSuitability: suitable does not always mean present, abundant, or critical habitat."
   },
   {
-    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#model-outputs-are-planning-inputs",
-    "href": "talks/megafauna_workshop_galapagos_2026/index.html#model-outputs-are-planning-inputs",
+    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#what-sdms-show",
+    "href": "talks/megafauna_workshop_galapagos_2026/index.html#what-sdms-show",
     "title": "SB5 Climate SDM Presentations",
-    "section": "Model outputs are planning inputs",
-    "text": "Model outputs are planning inputs\n\nIKI - Salvando a los Cinco Azules (SB5)\n\n\nAppropriate use in conservation planning\n\nModel outputs should support conservation discussion, prioritization, and scenario thinking. They should not be treated as final maps of where conservation action must happen.\n\nUse outputs to compare patterns and identify questions.\nCommunicate confidence and uncertainty alongside maps.\nAvoid over-interpreting fine-scale boundaries.\nLink model interpretation to feasible planning decisions.\n\n\nisaaksonbm · ibrito@conservation.org"
+    "section": "What SDMs show",
+    "text": "What SDMs show\n\nIKI - Salvando a los Cinco Azules (SB5)\n\n\nSDMs estimate environmental suitability\n\nThey do not directly show:\n\n\nconfirmed presence\nabundance\nreproduction\npopulation trends\nmanagement priority by themselves\n\n\n\nSuitable ≠ occupied ≠ important habitat"
   },
   {
-    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#working-rule-for-the-workshop",
-    "href": "talks/megafauna_workshop_galapagos_2026/index.html#working-rule-for-the-workshop",
+    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#how-we-use-the-outputs",
+    "href": "talks/megafauna_workshop_galapagos_2026/index.html#how-we-use-the-outputs",
     "title": "SB5 Climate SDM Presentations",
-    "section": "Working rule for the workshop",
-    "text": "Working rule for the workshop\n\nIKI - Salvando a los Cinco Azules (SB5)\n\n\nWorking rule for the workshop\n\nModel outputs should guide discussion, prioritization, and improvement. They should not be treated as final conservation truth without considering data coverage, model assumptions, and uncertainty.\n\n\nWhere are the patterns useful?\nWhere are they fragile?\nWhich assumptions need to be stated more clearly?\nWhat would make the next version more decision-relevant?\n\n\n\nisaaksonbm · ibrito@conservation.org"
+    "section": "How we use the outputs",
+    "text": "How we use the outputs\n\nIKI - Salvando a los Cinco Azules (SB5)\n\n\nUse model outputs as decision-support\n\nThey can help identify:\n\npossible climate exposure\nfuture suitable areas\ndata gaps\nareas needing monitoring\nplaces where planning may need to be adaptive\n\n\nInterpret outputs with expert knowledge, local context, and governance feasibility."
+  },
+  {
+    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#workshop-rule",
+    "href": "talks/megafauna_workshop_galapagos_2026/index.html#workshop-rule",
+    "title": "SB5 Climate SDM Presentations",
+    "section": "Workshop rule",
+    "text": "Workshop rule\n\nIKI - Salvando a los Cinco Azules (SB5)\n\n\nThe goal is not to find “the perfect map”\n\nThe goal is to ask:\n\nWhat patterns are consistent?\nWhat looks uncertain?\nWhat needs expert review?\nWhat can improve in the next version?"
   },
   {
     "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#from-data-to-climate-informed-sdms",
