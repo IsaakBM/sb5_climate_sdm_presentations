@@ -1,7 +1,7 @@
 .DS_Store
 .Rproj.user/
 
-# Quarto generated outputs
+# Local render previews and scratch outputs
 outputs/*
 !outputs/.gitkeep
 
