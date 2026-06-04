@@ -1,0 +1,43 @@
+Package: sb5-climate-sdm-presentations
+Title: SB5 Climate SDM Presentations
+Version: 0.1.0
+Authors@R:
+    person("Isaac", "Brito-Morales", email = "ibrito@conservation.org", role = c("aut", "cre"))
+Description: Reproducible Quarto/Reveal.js presentations for SB5 climate projections,
+    biological data readiness, downscaling workflows, and species distribution modeling.
+License: file LICENSE
+Encoding: UTF-8
+Depends:
+    R (>= 4.5.0)
+Imports:
+    bslib,
+    chromote,
+    cli,
+    dplyr,
+    fontawesome,
+    ggplot2,
+    glue,
+    here,
+    htmltools,
+    htmlwidgets,
+    jsonlite,
+    knitr,
+    leaflet,
+    magick,
+    pdftools,
+    png,
+    plotly,
+    qrcode,
+    quarto,
+    ragg,
+    readr,
+    renv,
+    rmarkdown,
+    sass,
+    sf,
+    svglite,
+    terra,
+    tibble,
+    tidyr,
+    webshot2,
+    yaml

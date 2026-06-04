@@ -1,0 +1,44 @@
+## From data to climate-informed SDMs {background-color="white" .technical-white}
+
+<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
+<h2 class="slide-title">From data to climate-informed SDMs</h2>
+
+This presentation connects physical ocean projections, biological observations, and first-generation species distribution models into a transparent workflow for expert review.
+
+<div class="pipeline">
+<div>Physical ocean data</div>
+<div>Biological records</div>
+<div>Predictor extraction</div>
+<div>First-generation SDMs</div>
+<div>Planning interpretation</div>
+</div>
+
+The intended outcome is focused feedback on data gaps, species/model interpretation, and realistic improvements over the next year.
+
+<div class="sb5-footer">isaaksonbm · ibrito@conservation.org</div>
+
+---
+
+## Workshop inputs already exist {background-color="white" .technical-white}
+
+<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
+<h2 class="slide-title">Workshop inputs already exist</h2>
+
+<div class="two-col-visual">
+<div>
+
+- Taxonomic and data workshop: Panama 2025
+- Physical modeling workshop: Toulouse 2025
+- Biological data preparation repository
+- Ocean downscaling workflow repository
+- Two Shiny viewers for review and discussion
+
+</div>
+<div>
+
+![](../../shared/assets/images/panama-taxonomic-workshop-2025.jpg)
+
+</div>
+</div>
+
+<div class="sb5-footer">isaaksonbm · ibrito@conservation.org</div>

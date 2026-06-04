@@ -1,0 +1,140 @@
+## Shared framing: climate projections, uncertainty, and interpretation {background-image="../../shared/assets/images/whale-shark-close.jpg" background-size="cover" background-position="center" .section-photo}
+
+<div class="section-title-panel">
+<h2>Shared framing</h2>
+<p>Climate projections, uncertainty, and interpretation</p>
+</div>
+
+---
+
+## Why start here? {background-color="white" .technical-white}
+
+<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
+<h2 class="slide-title">Why start here?</h2>
+
+Participants bring different backgrounds: climate modeling, marine ecology, data curation, species modeling, and conservation planning. This opening section aligns expectations before we interpret data products or SDM outputs.
+
+- We need a shared language before discussing model outputs.
+- We need to separate evidence, assumptions, and interpretation.
+- We need feedback that improves the workflow, not just the slides.
+
+<div class="sb5-footer">isaaksonbm · ibrito@conservation.org</div>
+
+---
+
+## The objective is shared interpretation {background-color="white" .technical-white}
+
+<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
+<h2 class="slide-title">The objective is shared interpretation</h2>
+
+This section is not technical training. It establishes a common framing for discussions throughout the workshop.
+
+- What can climate projections tell us?
+- What should not be over-interpreted?
+- Where do assumptions enter the workflow?
+- How should outputs support conservation planning?
+
+<div class="sb5-footer">isaaksonbm · ibrito@conservation.org</div>
+
+---
+
+## Projections are conditional futures {background-color="white" .technical-white}
+
+<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
+<h2 class="slide-title">Climate projections vs predictions</h2>
+
+Climate projections are not deterministic predictions. They describe plausible futures conditional on emissions pathways, model structure, realizations, downscaling choices, and interpretation assumptions.
+
+<div class="pipeline">
+<div>Climate scenario</div>
+<div>Model family</div>
+<div>Ensemble member</div>
+<div>Downscaled product</div>
+<div>Conservation interpretation</div>
+</div>
+
+<div class="sb5-footer">isaaksonbm · ibrito@conservation.org</div>
+
+---
+
+## Uncertainty is part of responsible use {background-color="white" .technical-white}
+
+<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
+<h2 class="slide-title">Interpretation of uncertainty</h2>
+
+Uncertainty is not a failure of the workflow. It is information about where interpretation should be careful, where additional data would help, and where decisions should remain robust to multiple plausible futures.
+
+<div class="two-col">
+<div>
+
+**Climate and ocean products**
+
+- model and scenario uncertainty
+- ensemble member variability
+- downscaling assumptions
+
+</div>
+<div>
+
+**Ecological interpretation**
+
+- biological sampling bias
+- SDM algorithm uncertainty
+- conservation-use uncertainty
+
+</div>
+</div>
+
+<div class="sb5-footer">isaaksonbm · ibrito@conservation.org</div>
+
+---
+
+## SDMs depend on assumptions {background-color="white" .technical-white}
+
+<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
+<h2 class="slide-title">Limitations and assumptions associated with SDMs</h2>
+
+SDMs connect species records to environmental predictors, but the result depends on the data, predictor choices, modeling algorithm, spatial scale, and interpretation of habitat suitability.
+
+- Records are not always evenly sampled across space or time.
+- Environmental predictors are simplifications of ecological processes.
+- Model performance does not automatically imply ecological truth.
+- Outputs are strongest when interpreted with expert knowledge.
+
+<div class="sb5-footer">isaaksonbm · ibrito@conservation.org</div>
+
+---
+
+## Model outputs are planning inputs {background-color="white" .technical-white}
+
+<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
+<h2 class="slide-title">Appropriate use in conservation planning</h2>
+
+Model outputs should support conservation discussion, prioritization, and scenario thinking. They should not be treated as final maps of where conservation action must happen.
+
+- Use outputs to compare patterns and identify questions.
+- Communicate confidence and uncertainty alongside maps.
+- Avoid over-interpreting fine-scale boundaries.
+- Link model interpretation to feasible planning decisions.
+
+<div class="sb5-footer">isaaksonbm · ibrito@conservation.org</div>
+
+---
+
+## Working rule for the workshop {background-color="white" .technical-white}
+
+<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
+<h2 class="slide-title">Working rule for the workshop</h2>
+
+Model outputs should guide discussion, prioritization, and improvement. They should not be treated as final conservation truth without considering data coverage, model assumptions, and uncertainty.
+
+<div class="questions">
+
+- Where are the patterns useful?
+- Where are they fragile?
+- Which assumptions need to be stated more clearly?
+- What would make the next version more decision-relevant?
+
+</div>
+
+<div class="sb5-footer">isaaksonbm · ibrito@conservation.org</div>

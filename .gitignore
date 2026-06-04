@@ -1,0 +1,13 @@
+.DS_Store
+.Rproj.user/
+
+# Quarto generated outputs
+outputs/*
+!outputs/.gitkeep
+
+# Local caches
+/.quarto/
+*_cache/
+*_files/
+
+**/*.quarto_ipynb

@@ -1,0 +1,120 @@
+## Physical modeling and downscaling framework {background-image="../../shared/assets/images/toulouse-modelers-workshop-2025.jpg" background-size="cover" background-position="center" .section-photo}
+
+<div class="section-title-panel">
+<h2>Physical modeling and downscaling framework</h2>
+<p>Oceanographic datasets, downscaling approaches, and integration with biological data</p>
+</div>
+
+---
+
+## Physical modeling and downscaling framework {background-color="white" .technical-white}
+
+<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
+<h2 class="slide-title">Physical modeling and downscaling framework</h2>
+
+This section summarizes the ocean products and workflow logic used to connect present-day baselines and future climate conditions to SDM predictors.
+
+- Contemporary ocean conditions and future climate projections
+- Horizontal and vertical products relevant to SB5 species
+- Delta/change-field downscaling to trusted baseline products
+- Curated layers designed for visualization and SDM extraction
+- Viewer: [Ocean downscaling Shiny app](https://isaakbm-ocean-downscaling-viewer.share.connect.posit.cloud/)
+
+<div class="sb5-footer">isaaksonbm · ibrito@conservation.org</div>
+
+---
+
+## What is a physical climate model? {background-color="white" .technical-white}
+
+<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
+<h2 class="slide-title">What is a physical climate model?</h2>
+
+<div class="two-col-visual">
+<div>
+
+Physical models represent the ocean, atmosphere, land, and ice on numerical grids. They simulate energy and mass exchange through time, producing variables that can be summarized for ecological modeling.
+
+- horizontal grid
+- vertical layers
+- physical and biogeochemical processes
+- present-day and future time windows
+
+</div>
+<div>
+
+![](../../shared/assets/images/climate-model-diagram.png)
+
+</div>
+</div>
+
+<div class="sb5-footer">isaaksonbm · ibrito@conservation.org</div>
+
+---
+
+## Downscaling pipeline {background-color="white" .technical-white}
+
+<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
+<h2 class="slide-title">Downscaling pipeline</h2>
+
+<div class="pipeline">
+<div>Trusted baseline ocean products</div>
+<div>Model-specific climate change fields</div>
+<div>Downscaled future ocean products</div>
+<div>Curated layers and exports</div>
+<div>SDM predictor extraction</div>
+</div>
+
+Current workflow materials are private but documented in the CESM Large Ensemble ocean downscaling repository.
+
+<div class="repo-note">Local reference: shared/references/repos/cesmle-ocn-fetch-readme.md</div>
+
+<div class="sb5-footer">isaaksonbm · ibrito@conservation.org</div>
+
+---
+
+## Ocean downscaling viewer {background-color="white" .technical-white .app-demo}
+
+<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
+<h2 class="slide-title">Ocean downscaling viewer</h2>
+
+<div class="app-grid">
+<div>
+
+![](../../shared/assets/screenshots/ocean-downscaling-viewer.png){.screenshot}
+
+</div>
+<div>
+
+Use the viewer to inspect:
+
+- variables
+- depth layers
+- baseline and future products
+- spatial patterns
+- products feeding the SDM pipeline
+
+[Open app](https://isaakbm-ocean-downscaling-viewer.share.connect.posit.cloud/)
+
+![](../../shared/assets/qr/ocean-downscaling-viewer-qr.png){.qr}
+
+</div>
+</div>
+
+<div class="sb5-footer">isaaksonbm · ibrito@conservation.org</div>
+
+---
+
+## Future work for physical products {background-color="white" .technical-white}
+
+<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
+<h2 class="slide-title">Future work for physical products</h2>
+
+The current viewer and pipeline provide a transparent foundation. The next step is to expand the ensemble and make uncertainty easier to interpret.
+
+- More model families
+- More climate scenarios
+- More realizations / ensemble members
+- More depth-layer and pelagic summaries
+- Clearer uncertainty summaries for SDM interpretation
+
+<div class="sb5-footer">isaaksonbm · ibrito@conservation.org</div>

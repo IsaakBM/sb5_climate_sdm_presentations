@@ -1,0 +1,41 @@
+---
+pagetitle: "Megafauna Workshop Galapagos 2026"
+format:
+  revealjs:
+    theme:
+      - ../../shared/theme/sb5.scss
+    footer: '<span class="footer-muted">Created by Isaac Brito-Morales</span><span class="footer-sep">|</span><a href="https://github.com/IsaakBM">GitHub</a><span class="footer-sep">|</span><a href="https://isaakbm.github.io/">Personal website</a><span class="footer-sep">|</span>'
+---
+
+## {background-image="../../shared/assets/images/whale-shark-wide.jpg" background-size="cover" background-position="center" .title-photo}
+
+<div class="title-panel">
+<h1>Megafauna Workshop<br>Galápagos 2026</h1>
+<p>Climate projections, biological data readiness, and first-generation SDMs</p>
+</div>
+
+<div class="title-bottom-band">
+<img src="../../shared/assets/logos/sb5-logo-main.png" class="sb5-title-logo" alt="Save the Blue Five logo">
+<div class="title-meta">
+<strong>Isaac Brito-Morales, PhD</strong><br>
+June 2026
+</div>
+<div class="title-partners">
+<img src="../../shared/assets/logos/conservation-international.png" alt="Conservation International logo">
+<img src="../../shared/assets/logos/ucsb.png" alt="UCSB logo">
+</div>
+</div>
+
+---
+
+{{< include sections/00_shared_framing.qmd >}}
+
+{{< include sections/01_context_and_objectives.qmd >}}
+
+{{< include sections/02_physical_modeling_downscaling.qmd >}}
+
+{{< include sections/03_biological_data_status.qmd >}}
+
+{{< include sections/04_first_generation_sdms.qmd >}}
+
+{{< include sections/05_future_work_and_discussion.qmd >}}

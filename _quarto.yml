@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: outputs
+
+execute:
+  freeze: auto
+
+format:
+  revealjs:
+    theme:
+      - default
+      - shared/theme/sb5.scss
+    widescreen: true
+    slide-number: true
+    hash: true
+    transition: none
+    background-transition: none
+    controls: true
+    progress: true
+    center: false
+    margin: 0.04
+    code-overflow: wrap
+
+website:
+  title: "SB5 Climate SDM Presentations"
