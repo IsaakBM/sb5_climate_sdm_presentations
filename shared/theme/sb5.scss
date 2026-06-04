@@ -62,14 +62,15 @@ $presentation-font-size-root: 24px;
 .reveal ul {
   list-style: none;
   margin-left: 0;
+  padding-left: 0;
 }
 
 .reveal ul li::before {
   content: "▸";
   color: $sb5-blue;
   display: inline-block;
-  width: 1em;
-  margin-left: -1em;
+  width: 0.86em;
+  margin-left: 0;
 }
 
 .sb5-header {
