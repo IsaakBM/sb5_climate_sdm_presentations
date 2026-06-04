@@ -1,25 +1,23 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - index.qmd
+    - talks/*/index.qmd
+  resources:
+    - .nojekyll
 
 execute:
   freeze: auto
 
 format:
-  revealjs:
-    theme:
-      - default
-      - shared/theme/sb5.scss
-    widescreen: true
-    slide-number: true
-    hash: true
-    transition: none
-    background-transition: none
-    controls: true
-    progress: true
-    center: false
-    margin: 0.04
-    code-overflow: wrap
+  html:
+    theme: cosmo
+    toc: false
 
 website:
   title: "SB5 Climate SDM Presentations"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Talks

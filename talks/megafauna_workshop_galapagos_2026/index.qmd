@@ -3,7 +3,18 @@ pagetitle: "Megafauna Workshop Galapagos 2026"
 format:
   revealjs:
     theme:
+      - default
       - ../../shared/theme/sb5.scss
+    widescreen: true
+    slide-number: true
+    hash: true
+    transition: none
+    background-transition: none
+    controls: true
+    progress: true
+    center: false
+    margin: 0.04
+    code-overflow: wrap
     footer: '<span class="footer-muted">Created by Isaac Brito-Morales</span><span class="footer-sep">|</span><a href="https://github.com/IsaakBM">GitHub</a><span class="footer-sep">|</span><a href="https://isaakbm.github.io/">Personal website</a><span class="footer-sep">|</span>'
 ---
 

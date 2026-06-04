@@ -1,0 +1,27 @@
+---
+title: "SB5 Climate SDM Presentations"
+---
+
+This repository hosts reusable Quarto/Reveal.js presentations for Save the Blue Five work on climate projections, ocean downscaling, biological data readiness, and species distribution modeling.
+
+## Talks
+
+### Megafauna Workshop Galapagos 2026
+
+Climate projections, biological data readiness, ocean downscaling workflows, and first-generation SDM interpretation.
+
+[Open presentation](talks/megafauna_workshop_galapagos_2026/)
+
+## Reproducibility
+
+The source files live in the repository root and `talks/`. Rendered GitHub Pages files are written to `docs/`.
+
+```bash
+quarto render
+```
+
+R package versions are locked with `renv`:
+
+```r
+renv::restore()
+```
