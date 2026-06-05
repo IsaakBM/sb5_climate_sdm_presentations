@@ -9,10 +9,15 @@
 
 ## Shared framing {background-color="white" .technical-white}
 
-<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
-<h2 class="slide-title">How to read the models</h2>
+::: {.sb5-header}
+IKI - Salvando a los Cinco Azules (SB5)
+:::
 
-<p class="framing-lead">Before using maps or SDM outputs, we need a shared way to interpret them.</p>
+### How to read the models {.slide-title}
+
+::: {.framing-lead}
+Before using maps or SDM outputs, we need a shared way to interpret them.
+:::
 
 - Projections are “what-if” futures
 - Uncertainty comes from the full workflow
@@ -23,88 +28,67 @@
 
 ## Projection not prediction {background-color="white" .technical-white}
 
-<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
-<h2 class="slide-title">Projection ≠ prediction</h2>
+::: {.sb5-header}
+IKI - Salvando a los Cinco Azules (SB5)
+:::
 
-<div class="projection-layout">
-<div class="definition-card">
-<h3>Prediction</h3>
-<p>“This is what will happen.”</p>
-</div>
-<div class="definition-card">
-<h3>Projection</h3>
-<p>“This is what could happen under these assumptions.”</p>
+### Projection ≠ prediction {.slide-title}
 
-<div class="projection-figure">
-<img src="../../shared/assets/images/tree-2023-projection-scenarios.png" alt="Future temperatures under different climate scenarios from Schoeman et al. 2023">
-<p>Conceptual schematic adapted from Schoeman et al. (2023), <em>Trends in Ecology &amp; Evolution</em>. doi:<a href="https://doi.org/10.1016/j.tree.2023.04.005">10.1016/j.tree.2023.04.005</a></p>
-</div>
-</div>
-</div>
+::: {.projection-layout}
+::: {.definition-card}
+### Prediction
 
-<p class="key-message">For this workshop, climate projections help us explore plausible futures, not identify one exact future.</p>
+“This is what will happen.”
+:::
+
+::: {.definition-card}
+### Projection
+
+“This is what could happen under these assumptions.”
+
+::: {.projection-figure}
+![](../../shared/assets/images/tree-2023-projection-scenarios.png)
+
+Conceptual schematic adapted from Schoeman et al. (2023), *Trends in Ecology & Evolution*. doi:[10.1016/j.tree.2023.04.005](https://doi.org/10.1016/j.tree.2023.04.005)
+:::
+:::
+:::
+
+::: {.key-message}
+For this workshop, climate projections help us explore plausible futures, not identify one exact future.
+:::
 
 ---
 
 ## Where uncertainty enters {background-color="white" .technical-white}
 
-<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
-<h2 class="slide-title">Where uncertainty enters</h2>
+::: {.sb5-header}
+IKI - Salvando a los Cinco Azules (SB5)
+:::
 
-<p class="framing-lead">Uncertainty comes from the full chain.</p>
+### Where uncertainty enters {.slide-title}
 
-<svg class="uncertainty-figure" viewBox="0 0 1180 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Three sources of uncertainty across the modeling workflow.">
-  <defs>
-    <marker id="arrow-blue" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto">
-      <path d="M0,0 L9,4 L0,8 Z" fill="#1594d2"/>
-    </marker>
-    <marker id="arrow-teal" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto">
-      <path d="M0,0 L9,4 L0,8 Z" fill="#007f8f"/>
-    </marker>
-    <marker id="arrow-green" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto">
-      <path d="M0,0 L9,4 L0,8 Z" fill="#4d8f70"/>
-    </marker>
-  </defs>
-  <g class="band climate">
-    <rect class="band-bg" x="0" y="0" width="1180" height="112"/>
-    <rect class="band-stripe" x="0" y="0" width="10" height="112"/>
-    <text class="band-title" x="42" y="67">Climate assumptions</text>
-    <path class="connector" d="M545 56 H725" marker-end="url(#arrow-blue)"/>
-    <path class="connector" d="M820 56 H990" marker-end="url(#arrow-blue)"/>
-    <g class="node" transform="translate(430 26)"><rect width="150" height="60" rx="30"/><text x="75" y="38">Scenario</text></g>
-    <g class="node" transform="translate(705 26)"><rect width="190" height="60" rx="30"/><text x="95" y="38">Climate model</text></g>
-    <g class="node" transform="translate(975 26)"><rect width="150" height="60" rx="30"/><text x="75" y="38">Model run</text></g>
-  </g>
-  <g class="band regional" transform="translate(0 142)">
-    <rect class="band-bg" x="0" y="0" width="1180" height="112"/>
-    <rect class="band-stripe" x="0" y="0" width="10" height="112"/>
-    <text class="band-title" x="42" y="67">Regional translation</text>
-    <path class="connector" d="M575 56 H760" marker-end="url(#arrow-teal)"/>
-    <path class="connector" d="M850 56 H990" marker-end="url(#arrow-teal)"/>
-    <g class="node" transform="translate(430 26)"><rect width="190" height="60" rx="30"/><text x="95" y="38">Downscaling</text></g>
-    <g class="node" transform="translate(745 26)"><rect width="145" height="60" rx="30"/><text x="72" y="38">Depth layer</text></g>
-    <g class="node wide" transform="translate(965 26)"><rect width="185" height="60" rx="30"/><text x="92" y="38">Variable choice</text></g>
-  </g>
-  <g class="band biological" transform="translate(0 284)">
-    <rect class="band-bg" x="0" y="0" width="1180" height="112"/>
-    <rect class="band-stripe" x="0" y="0" width="10" height="112"/>
-    <text class="band-title" x="42" y="67">Biological interpretation</text>
-    <path class="connector" d="M535 56 H700" marker-end="url(#arrow-green)"/>
-    <path class="connector" d="M820 56 H970" marker-end="url(#arrow-green)"/>
-    <g class="node" transform="translate(430 26)"><rect width="135" height="60" rx="30"/><text x="68" y="38">Records</text></g>
-    <g class="node" transform="translate(690 26)"><rect width="170" height="60" rx="30"/><text x="85" y="38">SDM algorithm</text></g>
-    <g class="node wide" transform="translate(950 26)"><rect width="190" height="60" rx="30"/><text x="95" y="38">Conservation use</text></g>
-  </g>
-</svg>
+::: {.framing-lead}
+Uncertainty comes from the full chain.
+:::
 
-<p class="key-message">Uncertainty is not failure; it tells us where to be cautious.</p>
+<div class="uncertainty-figure-wrap">
+<img class="uncertainty-figure" src="../../shared/assets/images/uncertainty-workflow.svg" alt="Three sources of uncertainty across the modeling workflow.">
+</div>
+
+::: {.key-message}
+Uncertainty is not failure; it tells us where to be cautious.
+:::
 
 ---
 
 ## Climate-side uncertainty {background-color="white" .technical-white}
 
-<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
-<h2 class="slide-title">Climate-side uncertainty</h2>
+::: {.sb5-header}
+IKI - Salvando a los Cinco Azules (SB5)
+:::
+
+### Climate-side uncertainty {.slide-title}
 
 - Scenario: which future climate pathway?
 - Model: which global climate model?
@@ -116,8 +100,11 @@
 
 ## Biological and SDM uncertainty {background-color="white" .technical-white}
 
-<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
-<h2 class="slide-title">Biological and SDM uncertainty</h2>
+::: {.sb5-header}
+IKI - Salvando a los Cinco Azules (SB5)
+:::
+
+### Biological and SDM uncertainty {.slide-title}
 
 - Records: where do we have data, and where are gaps?
 - Sampling bias: absent, or just not sampled?
@@ -129,29 +116,35 @@
 
 ## What SDMs show {background-color="white" .technical-white}
 
-<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
-<h2 class="slide-title">SDMs estimate environmental suitability</h2>
+::: {.sb5-header}
+IKI - Salvando a los Cinco Azules (SB5)
+:::
+
+### SDMs estimate environmental suitability {.slide-title}
 
 They do not directly show:
 
-<div class="not-list">
-
+::: {.not-list}
 - confirmed presence
 - abundance
 - reproduction
 - population trends
 - management priority by themselves
+:::
 
-</div>
-
-<p class="key-message">Suitable ≠ occupied ≠ important habitat</p>
+::: {.key-message}
+Suitable ≠ occupied ≠ important habitat
+:::
 
 ---
 
 ## How we use the outputs {background-color="white" .technical-white}
 
-<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
-<h2 class="slide-title">Use model outputs as decision-support</h2>
+::: {.sb5-header}
+IKI - Salvando a los Cinco Azules (SB5)
+:::
+
+### Use model outputs as decision-support {.slide-title}
 
 They can help identify:
 
@@ -161,14 +154,19 @@ They can help identify:
 - areas needing monitoring
 - places where planning may need to be adaptive
 
-<p class="key-message">Interpret outputs with expert knowledge, local context, and governance feasibility.</p>
+::: {.key-message}
+Interpret outputs with expert knowledge, local context, and governance feasibility.
+:::
 
 ---
 
 ## Workshop rule {background-color="white" .technical-white}
 
-<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
-<h2 class="slide-title">The goal is not to find “the perfect map”</h2>
+::: {.sb5-header}
+IKI - Salvando a los Cinco Azules (SB5)
+:::
+
+### The goal is not to find “the perfect map” {.slide-title}
 
 The goal is to ask:
 

@@ -28,7 +28,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-c02df496e18365a91dd2d46b4bf6ec44.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-d9d7409c31d8625642bd9a102c95ffcb.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -160,14 +160,12 @@ How to read the models
 <section id="shared-framing" class="slide level2 technical-white" data-background-color="white">
 <h2>Shared framing</h2>
 <div class="sb5-header">
-IKI - Salvando a los Cinco Azules (SB5)
+<p>IKI - Salvando a los Cinco Azules (SB5)</p>
 </div>
-<h2 class="slide-title">
-How to read the models
-</h2>
-<p class="framing-lead">
-Before using maps or SDM outputs, we need a shared way to interpret them.
-</p>
+<h3 class="slide-title" id="how-to-read-the-models">How to read the models</h3>
+<div class="framing-lead">
+<p>Before using maps or SDM outputs, we need a shared way to interpret them.</p>
+</div>
 <ul>
 <li>Projections are “what-if” futures</li>
 <li>Uncertainty comes from the full workflow</li>
@@ -178,65 +176,49 @@ Before using maps or SDM outputs, we need a shared way to interpret them.
 <section id="projection-not-prediction" class="slide level2 technical-white" data-background-color="white">
 <h2>Projection not prediction</h2>
 <div class="sb5-header">
-IKI - Salvando a los Cinco Azules (SB5)
+<p>IKI - Salvando a los Cinco Azules (SB5)</p>
 </div>
-<h2 class="slide-title">
-Projection ≠ prediction
-</h2>
+<h3 class="slide-title" id="projection-prediction">Projection ≠ prediction</h3>
 <div class="projection-layout">
-<div class="definition-card">
-<h3>
-Prediction
-</h3>
-<p>
-“This is what will happen.”
-</p>
-</div>
-<div class="definition-card">
-<h3>
-Projection
-</h3>
-<p>
-“This is what could happen under these assumptions.”
-</p>
+<section id="prediction" class="definition-card">
+<h3>Prediction</h3>
+<p>“This is what will happen.”</p>
+</section>
+<section id="projection" class="definition-card">
+<h3>Projection</h3>
+<p>“This is what could happen under these assumptions.”</p>
 <div class="projection-figure">
-<img src="../../shared/assets/images/tree-2023-projection-scenarios.png" alt="Future temperatures under different climate scenarios from Schoeman et al. 2023">
-<p>
-Conceptual schematic adapted from Schoeman et al.&nbsp;(2023), <em>Trends in Ecology &amp; Evolution</em>. doi:<a href="https://doi.org/10.1016/j.tree.2023.04.005">10.1016/j.tree.2023.04.005</a>
-</p>
+<p><img data-src="../../shared/assets/images/tree-2023-projection-scenarios.png"></p>
+<p>Conceptual schematic adapted from Schoeman et al.&nbsp;(2023), <em>Trends in Ecology &amp; Evolution</em>. doi:<a href="https://doi.org/10.1016/j.tree.2023.04.005">10.1016/j.tree.2023.04.005</a></p>
 </div>
+</section>
 </div>
+<div class="key-message">
+<p>For this workshop, climate projections help us explore plausible futures, not identify one exact future.</p>
 </div>
-<p class="key-message">
-For this workshop, climate projections help us explore plausible futures, not identify one exact future.
-</p>
 </section>
 <section id="where-uncertainty-enters" class="slide level2 technical-white" data-background-color="white">
 <h2>Where uncertainty enters</h2>
 <div class="sb5-header">
-IKI - Salvando a los Cinco Azules (SB5)
+<p>IKI - Salvando a los Cinco Azules (SB5)</p>
 </div>
-<h2 class="slide-title">
-Where uncertainty enters
-</h2>
-<p class="framing-lead">
-Uncertainty comes from the full chain.
-</p>
-<svg class="uncertainty-figure" viewbox="0 0 1180 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Three sources of uncertainty across the modeling workflow.">
-<defs> <marker id="arrow-blue" markerwidth="9" markerheight="8" refx="8" refy="4" orient="auto"> <path d="M0,0 L9,4 L0,8 Z" fill="#1594d2"></path> </marker> <marker id="arrow-teal" markerwidth="9" markerheight="8" refx="8" refy="4" orient="auto"> <path d="M0,0 L9,4 L0,8 Z" fill="#007f8f"></path> </marker> <marker id="arrow-green" markerwidth="9" markerheight="8" refx="8" refy="4" orient="auto"> <path d="M0,0 L9,4 L0,8 Z" fill="#4d8f70"></path> </marker> </defs> <g class="band climate"> <rect class="band-bg" x="0" y="0" width="1180" height="112"></rect> <rect class="band-stripe" x="0" y="0" width="10" height="112"></rect> <text class="band-title" x="42" y="67">Climate assumptions</text> <path class="connector" d="M545 56 H725" marker-end="url(#arrow-blue)"></path> <path class="connector" d="M820 56 H990" marker-end="url(#arrow-blue)"></path> <g class="node" transform="translate(430 26)"><rect width="150" height="60" rx="30"></rect><text x="75" y="38">Scenario</text></g> <g class="node" transform="translate(705 26)"><rect width="190" height="60" rx="30"></rect><text x="95" y="38">Climate model</text></g> <g class="node" transform="translate(975 26)"><rect width="150" height="60" rx="30"></rect><text x="75" y="38">Model run</text></g> </g> <g class="band regional" transform="translate(0 142)"> <rect class="band-bg" x="0" y="0" width="1180" height="112"></rect> <rect class="band-stripe" x="0" y="0" width="10" height="112"></rect> <text class="band-title" x="42" y="67">Regional translation</text> <path class="connector" d="M575 56 H760" marker-end="url(#arrow-teal)"></path> <path class="connector" d="M850 56 H990" marker-end="url(#arrow-teal)"></path> <g class="node" transform="translate(430 26)"><rect width="190" height="60" rx="30"></rect><text x="95" y="38">Downscaling</text></g> <g class="node" transform="translate(745 26)"><rect width="145" height="60" rx="30"></rect><text x="72" y="38">Depth layer</text></g> <g class="node wide" transform="translate(965 26)"><rect width="185" height="60" rx="30"></rect><text x="92" y="38">Variable choice</text></g> </g> <g class="band biological" transform="translate(0 284)"> <rect class="band-bg" x="0" y="0" width="1180" height="112"></rect> <rect class="band-stripe" x="0" y="0" width="10" height="112"></rect> <text class="band-title" x="42" y="67">Biological interpretation</text> <path class="connector" d="M535 56 H700" marker-end="url(#arrow-green)"></path> <path class="connector" d="M820 56 H970" marker-end="url(#arrow-green)"></path> <g class="node" transform="translate(430 26)"><rect width="135" height="60" rx="30"></rect><text x="68" y="38">Records</text></g> <g class="node" transform="translate(690 26)"><rect width="170" height="60" rx="30"></rect><text x="85" y="38">SDM algorithm</text></g> <g class="node wide" transform="translate(950 26)"><rect width="190" height="60" rx="30"></rect><text x="95" y="38">Conservation use</text></g> </g>
-</svg>
-<p class="key-message">
-Uncertainty is not failure; it tells us where to be cautious.
-</p>
+<h3 class="slide-title" id="where-uncertainty-enters-1">Where uncertainty enters</h3>
+<div class="framing-lead">
+<p>Uncertainty comes from the full chain.</p>
+</div>
+<div class="uncertainty-figure-wrap">
+<p><img class="uncertainty-figure" src="../../shared/assets/images/uncertainty-workflow.svg" alt="Three sources of uncertainty across the modeling workflow."></p>
+</div>
+<div class="key-message">
+<p>Uncertainty is not failure; it tells us where to be cautious.</p>
+</div>
 </section>
 <section id="climate-side-uncertainty" class="slide level2 technical-white" data-background-color="white">
 <h2>Climate-side uncertainty</h2>
 <div class="sb5-header">
-IKI - Salvando a los Cinco Azules (SB5)
+<p>IKI - Salvando a los Cinco Azules (SB5)</p>
 </div>
-<h2 class="slide-title">
-Climate-side uncertainty
-</h2>
+<h3 class="slide-title" id="climate-side-uncertainty-1">Climate-side uncertainty</h3>
 <ul>
 <li>Scenario: which future climate pathway?</li>
 <li>Model: which global climate model?</li>
@@ -248,11 +230,9 @@ Climate-side uncertainty
 <section id="biological-and-sdm-uncertainty" class="slide level2 technical-white" data-background-color="white">
 <h2>Biological and SDM uncertainty</h2>
 <div class="sb5-header">
-IKI - Salvando a los Cinco Azules (SB5)
+<p>IKI - Salvando a los Cinco Azules (SB5)</p>
 </div>
-<h2 class="slide-title">
-Biological and SDM uncertainty
-</h2>
+<h3 class="slide-title" id="biological-and-sdm-uncertainty-1">Biological and SDM uncertainty</h3>
 <ul>
 <li>Records: where do we have data, and where are gaps?</li>
 <li>Sampling bias: absent, or just not sampled?</li>
@@ -264,11 +244,9 @@ Biological and SDM uncertainty
 <section id="what-sdms-show" class="slide level2 technical-white" data-background-color="white">
 <h2>What SDMs show</h2>
 <div class="sb5-header">
-IKI - Salvando a los Cinco Azules (SB5)
+<p>IKI - Salvando a los Cinco Azules (SB5)</p>
 </div>
-<h2 class="slide-title">
-SDMs estimate environmental suitability
-</h2>
+<h3 class="slide-title" id="sdms-estimate-environmental-suitability">SDMs estimate environmental suitability</h3>
 <p>They do not directly show:</p>
 <div class="not-list">
 <ul>
@@ -279,18 +257,16 @@ SDMs estimate environmental suitability
 <li>management priority by themselves</li>
 </ul>
 </div>
-<p class="key-message">
-Suitable ≠ occupied ≠ important habitat
-</p>
+<div class="key-message">
+<p>Suitable ≠ occupied ≠ important habitat</p>
+</div>
 </section>
 <section id="how-we-use-the-outputs" class="slide level2 technical-white" data-background-color="white">
 <h2>How we use the outputs</h2>
 <div class="sb5-header">
-IKI - Salvando a los Cinco Azules (SB5)
+<p>IKI - Salvando a los Cinco Azules (SB5)</p>
 </div>
-<h2 class="slide-title">
-Use model outputs as decision-support
-</h2>
+<h3 class="slide-title" id="use-model-outputs-as-decision-support">Use model outputs as decision-support</h3>
 <p>They can help identify:</p>
 <ul>
 <li>possible climate exposure</li>
@@ -299,18 +275,16 @@ Use model outputs as decision-support
 <li>areas needing monitoring</li>
 <li>places where planning may need to be adaptive</li>
 </ul>
-<p class="key-message">
-Interpret outputs with expert knowledge, local context, and governance feasibility.
-</p>
+<div class="key-message">
+<p>Interpret outputs with expert knowledge, local context, and governance feasibility.</p>
+</div>
 </section>
 <section id="workshop-rule" class="slide level2 technical-white" data-background-color="white">
 <h2>Workshop rule</h2>
 <div class="sb5-header">
-IKI - Salvando a los Cinco Azules (SB5)
+<p>IKI - Salvando a los Cinco Azules (SB5)</p>
 </div>
-<h2 class="slide-title">
-The goal is not to find “the perfect map”
-</h2>
+<h3 class="slide-title" id="the-goal-is-not-to-find-the-perfect-map">The goal is not to find “the perfect map”</h3>
 <p>The goal is to ask:</p>
 <ul>
 <li>What patterns are consistent?</li>

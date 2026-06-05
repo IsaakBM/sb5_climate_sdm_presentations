@@ -45,7 +45,8 @@ $presentation-font-size-root: 24px;
   display: none !important;
 }
 
-.reveal h2.slide-title {
+.reveal h2.slide-title,
+.reveal h3.slide-title {
   color: $sb5-blue;
   font-size: 1.42em;
   line-height: 1.04;
@@ -455,6 +456,11 @@ $presentation-font-size-root: 24px;
   width: 100%;
 }
 
+.projection-figure > p:first-child,
+.uncertainty-figure-wrap p {
+  margin: 0;
+}
+
 .projection-figure img {
   display: block;
   width: 96%;
@@ -481,12 +487,17 @@ $presentation-font-size-root: 24px;
   text-decoration: none;
 }
 
-.uncertainty-figure {
+.uncertainty-figure-wrap {
   display: block;
   width: 100%;
   max-width: 100%;
-  height: auto;
   margin: 0.5rem 0 0.55rem 0;
+}
+
+.uncertainty-figure {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .uncertainty-figure .band-bg {
