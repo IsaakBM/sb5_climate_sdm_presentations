@@ -26,7 +26,7 @@
 <div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
 <h2 class="slide-title">Projection ≠ prediction</h2>
 
-<div class="definition-grid">
+<div class="projection-layout">
 <div class="definition-card">
 <h3>Prediction</h3>
 <p>“This is what will happen.”</p>
@@ -34,8 +34,6 @@
 <div class="definition-card">
 <h3>Projection</h3>
 <p>“This is what could happen under these assumptions.”</p>
-</div>
-</div>
 
 <div class="projection-sketch" role="img" aria-label="Conceptual projection plot showing multiple plausible climate futures.">
 <svg viewBox="0 0 920 250" xmlns="http://www.w3.org/2000/svg">
@@ -74,6 +72,8 @@
 </svg>
 <p>Conceptual schematic adapted from Schoeman et al. (2023), <em>Trends in Ecology &amp; Evolution</em>. doi:<a href="https://doi.org/10.1016/j.tree.2023.04.005">10.1016/j.tree.2023.04.005</a></p>
 </div>
+</div>
+</div>
 
 <p class="key-message">For this workshop, climate projections help us explore plausible futures, not identify one exact future.</p>
 
@@ -86,15 +86,25 @@
 
 <p class="framing-lead">Uncertainty comes from the full chain.</p>
 
-<div class="chain">
-<div><span>01</span>Climate scenario</div><i>→</i>
-<div><span>02</span>Climate model</div><i>→</i>
-<div><span>03</span>Model run</div><i>→</i>
-<div><span>04</span>Downscaling method</div><i>→</i>
-<div><span>05</span>Depth layer / variable choice</div><i>→</i>
-<div><span>06</span>Biological records</div><i>→</i>
-<div><span>07</span>SDM algorithm</div><i>→</i>
-<div><span>08</span>Conservation interpretation</div>
+<div class="uncertainty-map">
+<div class="uncertainty-band climate">
+<div class="band-label">Climate assumptions</div>
+<div class="band-line">
+<span>Scenario</span><i></i><span>Climate model</span><i></i><span>Model run</span>
+</div>
+</div>
+<div class="uncertainty-band regional">
+<div class="band-label">Regional translation</div>
+<div class="band-line">
+<span>Downscaling</span><i></i><span>Depth layer</span><i></i><span>Variable choice</span>
+</div>
+</div>
+<div class="uncertainty-band biological">
+<div class="band-label">Biological interpretation</div>
+<div class="band-line">
+<span>Records</span><i></i><span>SDM algorithm</span><i></i><span>Conservation use</span>
+</div>
+</div>
 </div>
 
 <p class="key-message">Uncertainty is not failure; it tells us where to be cautious.</p>
