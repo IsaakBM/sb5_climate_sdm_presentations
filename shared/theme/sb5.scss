@@ -411,13 +411,15 @@ $presentation-font-size-root: 24px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0.85rem;
-  margin: 0.8rem 0 0.9rem 0;
+  margin: 0.65rem 0 0.55rem 0;
 }
 
 .definition-card {
-  background: #f4f7f9;
-  border-top: 4px solid $sb5-blue;
-  padding: 0.72rem 0.82rem;
+  background: linear-gradient(180deg, #ffffff 0%, #f4f8fb 100%);
+  border: 1px solid #d9e5ec;
+  border-top: 5px solid $sb5-blue;
+  box-shadow: 0 10px 22px rgba(23, 63, 111, 0.08);
+  padding: 0.52rem 0.72rem;
 }
 
 .definition-card h3 {
@@ -431,28 +433,150 @@ $presentation-font-size-root: 24px;
   margin: 0;
 }
 
+.projection-sketch {
+  margin: 0.45rem auto 0.5rem auto;
+  max-width: 76%;
+}
+
+.projection-sketch svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #e1e7eb;
+  box-shadow: 0 10px 24px rgba(23, 63, 111, 0.09);
+}
+
+.projection-sketch p {
+  margin: 0.2rem 0 0 0;
+  color: #7a858c;
+  font-size: 0.46em;
+  text-align: center;
+}
+
+.projection-sketch a {
+  color: #1a74a6;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.projection-sketch .axis {
+  stroke: #2c3337;
+  stroke-width: 3;
+}
+
+.projection-sketch .axis-label,
+.projection-sketch .threshold-label,
+.projection-sketch .period-label,
+.projection-sketch .legend text {
+  fill: #4e5558;
+  font-family: "Proxima Nova", "Aptos", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.projection-sketch .period-label {
+  fill: #5e666b;
+  font-size: 15px;
+}
+
+.projection-sketch .threshold {
+  stroke: #a9afb4;
+  stroke-width: 3;
+  stroke-dasharray: 10 8;
+}
+
+.projection-sketch .threshold-warm {
+  stroke: #e68085;
+}
+
+.projection-sketch .future-band rect {
+  fill: rgba(80, 88, 96, 0.22);
+}
+
+.projection-sketch .historical-band {
+  fill: none;
+  stroke: rgba(40, 40, 40, 0.2);
+  stroke-width: 20;
+}
+
+.projection-sketch .historical {
+  fill: none;
+  stroke: #222;
+  stroke-width: 5;
+}
+
+.projection-sketch .scenario {
+  fill: none;
+  stroke-width: 5;
+  stroke-linecap: round;
+}
+
+.projection-sketch .scenario.low {
+  stroke: #4d63a4;
+}
+
+.projection-sketch .scenario.mid {
+  stroke: #2b94c8;
+}
+
+.projection-sketch .scenario.high {
+  stroke: #b24b36;
+}
+
+.projection-sketch .ribbon {
+  fill: none;
+  stroke-linecap: round;
+}
+
+.projection-sketch .mid-ribbon {
+  stroke: rgba(43, 148, 200, 0.18);
+  stroke-width: 28;
+}
+
+.projection-sketch .high-ribbon {
+  stroke: rgba(178, 75, 54, 0.18);
+  stroke-width: 34;
+}
+
 .chain {
   display: flex;
   align-items: stretch;
-  gap: 0.32rem;
+  gap: 0.24rem;
   margin-top: 0.85rem;
+  position: relative;
 }
 
 .chain > div {
   flex: 1;
-  background: #f4f7f9;
-  border-top: 4px solid $sb5-blue;
+  background: linear-gradient(180deg, #ffffff 0%, #f4f8fb 100%);
+  border: 1px solid #d9e5ec;
+  border-top: 5px solid $sb5-blue;
+  box-shadow: 0 10px 22px rgba(23, 63, 111, 0.08);
   color: $sb5-dark;
-  font-size: 0.62em;
+  font-size: 0.56em;
   font-weight: 800;
-  padding: 0.45rem 0.5rem;
-  min-height: 2.65rem;
+  padding: 0.5rem 0.5rem 0.45rem 0.5rem;
+  min-height: 3.15rem;
+  position: relative;
 }
 
-.chain > span {
+.chain > div span {
+  display: block;
+  color: $sb5-blue;
+  font-size: 0.72em;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.18rem;
+}
+
+.chain > i {
   align-self: center;
   color: $sb5-blue;
+  font-style: normal;
   font-weight: 800;
+  margin-left: -0.1rem;
+  margin-right: -0.1rem;
+  position: relative;
+  z-index: 2;
 }
 
 .key-message {
