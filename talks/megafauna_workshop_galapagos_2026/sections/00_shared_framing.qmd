@@ -36,13 +36,13 @@ IKI - Salvando a los Cinco Azules (SB5)
 
 ::: {.projection-layout}
 ::: {.definition-card}
-### Prediction
+**Prediction**
 
 “This is what will happen.”
 :::
 
 ::: {.definition-card}
-### Projection
+**Projection**
 
 “This is what could happen under these assumptions.”
 
