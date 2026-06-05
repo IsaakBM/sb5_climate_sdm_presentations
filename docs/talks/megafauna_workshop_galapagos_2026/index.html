@@ -28,7 +28,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-5c106b7c2bfbcda0cebc3e4a3805cd96.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-c02df496e18365a91dd2d46b4bf6ec44.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -199,10 +199,8 @@ Projection
 <p>
 “This is what could happen under these assumptions.”
 </p>
-<div class="projection-sketch" role="img" aria-label="Conceptual projection plot showing multiple plausible climate futures.">
-<svg viewbox="0 0 920 250" xmlns="http://www.w3.org/2000/svg">
-<rect x="0" y="0" width="920" height="250" rx="0" fill="#f7f9fb"></rect> <g class="future-band"> <rect x="505" y="24" width="110" height="180"></rect> <rect x="720" y="24" width="118" height="180"></rect> </g> <line x1="92" y1="204" x2="850" y2="204" class="axis"></line> <line x1="92" y1="28" x2="92" y2="204" class="axis"></line> <line x1="92" y1="142" x2="850" y2="142" class="threshold"></line> <line x1="92" y1="108" x2="850" y2="108" class="threshold threshold-warm"></line> <text x="104" y="101" class="threshold-label">2 °C</text> <text x="104" y="135" class="threshold-label">1.5 °C</text> <text x="92" y="226" class="axis-label">1950</text> <text x="316" y="226" class="axis-label">2000</text> <text x="545" y="226" class="axis-label">2050</text> <text x="820" y="226" class="axis-label">2100</text> <text x="522" y="194" class="period-label">near-term</text> <text x="740" y="194" class="period-label">long-term</text> <path d="M96 170 C150 174 188 164 224 162 C270 160 302 148 340 132 C382 116 414 108 464 96" class="historical-band"></path> <path d="M96 170 C150 172 190 166 225 162 C272 156 304 146 340 131 C384 114 420 106 465 96" class="historical"></path> <path d="M465 96 C550 112 640 150 835 170" class="scenario low"></path> <path d="M465 96 C560 103 660 104 835 92" class="scenario mid"></path> <path d="M465 96 C575 90 675 70 835 38" class="scenario high"></path> <path d="M465 96 C565 97 670 120 835 132" class="ribbon mid-ribbon"></path> <path d="M465 96 C570 86 690 48 835 18" class="ribbon high-ribbon"></path> <g class="legend"> <line x1="615" y1="52" x2="654" y2="52" class="scenario high"></line> <text x="664" y="57">higher pathway</text> <line x1="615" y1="77" x2="654" y2="77" class="scenario mid"></line> <text x="664" y="82">intermediate pathway</text> <line x1="615" y1="102" x2="654" y2="102" class="scenario low"></line> <text x="664" y="107">lower pathway</text> </g>
-</svg>
+<div class="projection-figure">
+<img src="../../shared/assets/images/tree-2023-projection-scenarios.png" alt="Future temperatures under different climate scenarios from Schoeman et al. 2023">
 <p>
 Conceptual schematic adapted from Schoeman et al.&nbsp;(2023), <em>Trends in Ecology &amp; Evolution</em>. doi:<a href="https://doi.org/10.1016/j.tree.2023.04.005">10.1016/j.tree.2023.04.005</a>
 </p>
@@ -224,32 +222,9 @@ Where uncertainty enters
 <p class="framing-lead">
 Uncertainty comes from the full chain.
 </p>
-<div class="uncertainty-map">
-<div class="uncertainty-band climate">
-<div class="band-label">
-Climate assumptions
-</div>
-<div class="band-line">
-<p><span>Scenario</span><i></i><span>Climate model</span><i></i><span>Model run</span></p>
-</div>
-</div>
-<div class="uncertainty-band regional">
-<div class="band-label">
-Regional translation
-</div>
-<div class="band-line">
-<p><span>Downscaling</span><i></i><span>Depth layer</span><i></i><span>Variable choice</span></p>
-</div>
-</div>
-<div class="uncertainty-band biological">
-<div class="band-label">
-Biological interpretation
-</div>
-<div class="band-line">
-<p><span>Records</span><i></i><span>SDM algorithm</span><i></i><span>Conservation use</span></p>
-</div>
-</div>
-</div>
+<svg class="uncertainty-figure" viewbox="0 0 1180 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Three sources of uncertainty across the modeling workflow.">
+<defs> <marker id="arrow-blue" markerwidth="9" markerheight="8" refx="8" refy="4" orient="auto"> <path d="M0,0 L9,4 L0,8 Z" fill="#1594d2"></path> </marker> <marker id="arrow-teal" markerwidth="9" markerheight="8" refx="8" refy="4" orient="auto"> <path d="M0,0 L9,4 L0,8 Z" fill="#007f8f"></path> </marker> <marker id="arrow-green" markerwidth="9" markerheight="8" refx="8" refy="4" orient="auto"> <path d="M0,0 L9,4 L0,8 Z" fill="#4d8f70"></path> </marker> </defs> <g class="band climate"> <rect class="band-bg" x="0" y="0" width="1180" height="112"></rect> <rect class="band-stripe" x="0" y="0" width="10" height="112"></rect> <text class="band-title" x="42" y="67">Climate assumptions</text> <path class="connector" d="M545 56 H725" marker-end="url(#arrow-blue)"></path> <path class="connector" d="M820 56 H990" marker-end="url(#arrow-blue)"></path> <g class="node" transform="translate(430 26)"><rect width="150" height="60" rx="30"></rect><text x="75" y="38">Scenario</text></g> <g class="node" transform="translate(705 26)"><rect width="190" height="60" rx="30"></rect><text x="95" y="38">Climate model</text></g> <g class="node" transform="translate(975 26)"><rect width="150" height="60" rx="30"></rect><text x="75" y="38">Model run</text></g> </g> <g class="band regional" transform="translate(0 142)"> <rect class="band-bg" x="0" y="0" width="1180" height="112"></rect> <rect class="band-stripe" x="0" y="0" width="10" height="112"></rect> <text class="band-title" x="42" y="67">Regional translation</text> <path class="connector" d="M575 56 H760" marker-end="url(#arrow-teal)"></path> <path class="connector" d="M850 56 H990" marker-end="url(#arrow-teal)"></path> <g class="node" transform="translate(430 26)"><rect width="190" height="60" rx="30"></rect><text x="95" y="38">Downscaling</text></g> <g class="node" transform="translate(745 26)"><rect width="145" height="60" rx="30"></rect><text x="72" y="38">Depth layer</text></g> <g class="node wide" transform="translate(965 26)"><rect width="185" height="60" rx="30"></rect><text x="92" y="38">Variable choice</text></g> </g> <g class="band biological" transform="translate(0 284)"> <rect class="band-bg" x="0" y="0" width="1180" height="112"></rect> <rect class="band-stripe" x="0" y="0" width="10" height="112"></rect> <text class="band-title" x="42" y="67">Biological interpretation</text> <path class="connector" d="M535 56 H700" marker-end="url(#arrow-green)"></path> <path class="connector" d="M820 56 H970" marker-end="url(#arrow-green)"></path> <g class="node" transform="translate(430 26)"><rect width="135" height="60" rx="30"></rect><text x="68" y="38">Records</text></g> <g class="node" transform="translate(690 26)"><rect width="170" height="60" rx="30"></rect><text x="85" y="38">SDM algorithm</text></g> <g class="node wide" transform="translate(950 26)"><rect width="190" height="60" rx="30"></rect><text x="95" y="38">Conservation use</text></g> </g>
+</svg>
 <p class="key-message">
 Uncertainty is not failure; it tells us where to be cautious.
 </p>

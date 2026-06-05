@@ -435,7 +435,7 @@ $presentation-font-size-root: 24px;
 
 .projection-layout {
   display: grid;
-  grid-template-columns: 0.84fr 1.16fr;
+  grid-template-columns: 0.78fr 1.22fr;
   gap: 0.85rem;
   align-items: start;
   margin-top: 0.6rem;
@@ -446,191 +446,121 @@ $presentation-font-size-root: 24px;
 }
 
 .projection-layout .definition-card:last-child {
-  display: grid;
-  grid-template-rows: auto auto 1fr;
+  display: flex;
+  flex-direction: column;
 }
 
-.projection-sketch {
-  margin: 0.45rem auto 0 auto;
-  width: min(100%, 16.2rem);
-  aspect-ratio: 920 / 250;
-}
-
-.projection-sketch svg {
-  display: block;
+.projection-figure {
+  margin-top: 0.48rem;
   width: 100%;
-  height: 100%;
-  aspect-ratio: 920 / 250;
-  border: 1px solid #e1e7eb;
-  box-shadow: 0 10px 24px rgba(23, 63, 111, 0.09);
 }
 
-.projection-sketch p {
+.projection-figure img {
+  display: block;
+  width: 96%;
+  height: auto;
+  aspect-ratio: 1120 / 896;
+  object-fit: contain;
+  object-position: center;
+  margin: 0 auto;
+  border: 0;
+  box-shadow: none;
+}
+
+.projection-figure p {
   margin: 0.2rem 0 0 0;
   color: #7a858c;
-  font-size: 0.46em;
+  font-size: 0.36em;
+  line-height: 1.1;
   text-align: center;
 }
 
-.projection-sketch a {
+.projection-figure a {
   color: #1a74a6;
   font-weight: 800;
   text-decoration: none;
 }
 
-.projection-sketch .axis {
-  stroke: #2c3337;
-  stroke-width: 3;
+.uncertainty-figure {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0.5rem 0 0.55rem 0;
 }
 
-.projection-sketch .axis-label,
-.projection-sketch .threshold-label,
-.projection-sketch .period-label,
-.projection-sketch .legend text {
-  fill: #4e5558;
+.uncertainty-figure .band-bg {
+  fill: #f7fafb;
+}
+
+.uncertainty-figure .climate .band-bg {
+  fill: #edf7fc;
+}
+
+.uncertainty-figure .regional .band-bg {
+  fill: #edf8f9;
+}
+
+.uncertainty-figure .biological .band-bg {
+  fill: #f0f7f3;
+}
+
+.uncertainty-figure .climate .band-stripe,
+.uncertainty-figure .climate .connector {
+  fill: #1594d2;
+  stroke: #1594d2;
+}
+
+.uncertainty-figure .regional .band-stripe,
+.uncertainty-figure .regional .connector {
+  fill: #007f8f;
+  stroke: #007f8f;
+}
+
+.uncertainty-figure .biological .band-stripe,
+.uncertainty-figure .biological .connector {
+  fill: #4d8f70;
+  stroke: #4d8f70;
+}
+
+.uncertainty-figure .band-title {
   font-family: "Proxima Nova", "Aptos", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-}
-
-.projection-sketch .period-label {
-  fill: #5e666b;
-  font-size: 15px;
-}
-
-.projection-sketch .threshold {
-  stroke: #a9afb4;
-  stroke-width: 3;
-  stroke-dasharray: 10 8;
-}
-
-.projection-sketch .threshold-warm {
-  stroke: #e68085;
-}
-
-.projection-sketch .future-band rect {
-  fill: rgba(80, 88, 96, 0.22);
-}
-
-.projection-sketch .historical-band {
-  fill: none;
-  stroke: rgba(40, 40, 40, 0.2);
-  stroke-width: 20;
-}
-
-.projection-sketch .historical {
-  fill: none;
-  stroke: #222;
-  stroke-width: 5;
-}
-
-.projection-sketch .scenario {
-  fill: none;
-  stroke-width: 5;
-  stroke-linecap: round;
-}
-
-.projection-sketch .scenario.low {
-  stroke: #4d63a4;
-}
-
-.projection-sketch .scenario.mid {
-  stroke: #2b94c8;
-}
-
-.projection-sketch .scenario.high {
-  stroke: #b24b36;
-}
-
-.projection-sketch .ribbon {
-  fill: none;
-  stroke-linecap: round;
-}
-
-.projection-sketch .mid-ribbon {
-  stroke: rgba(43, 148, 200, 0.18);
-  stroke-width: 28;
-}
-
-.projection-sketch .high-ribbon {
-  stroke: rgba(178, 75, 54, 0.18);
-  stroke-width: 34;
-}
-
-.uncertainty-map {
-  display: grid;
-  gap: 0.6rem;
-  margin: 0.85rem 0 0.95rem 0;
-  max-width: 94%;
-}
-
-.uncertainty-band {
-  --band-color: #1594d2;
-  --band-soft: rgba(21, 148, 210, 0.08);
-  display: grid;
-  grid-template-columns: 0.88fr 2.5fr;
-  align-items: center;
-  gap: 0.75rem;
-  padding: 0.38rem 0.55rem 0.38rem 0.7rem;
-  border-left: 6px solid var(--band-color);
-  background: linear-gradient(90deg, var(--band-soft) 0%, rgba(255, 255, 255, 0) 78%);
-}
-
-.uncertainty-band.regional {
-  --band-color: #007f8f;
-  --band-soft: rgba(0, 127, 143, 0.09);
-}
-
-.uncertainty-band.biological {
-  --band-color: #4d8f70;
-  --band-soft: rgba(77, 143, 112, 0.1);
-}
-
-.band-label {
-  color: var(--band-color);
-  font-size: 0.52em;
+  font-size: 28px;
   font-weight: 900;
-  letter-spacing: 0.06em;
-  line-height: 1;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
 
-.band-line {
-  display: grid;
-  grid-template-columns: 1fr 0.35fr 1fr 0.35fr 1fr;
-  align-items: center;
-  gap: 0.25rem;
+.uncertainty-figure .climate .band-title {
+  fill: #1594d2;
 }
 
-.band-line span {
-  color: $sb5-dark;
-  font-size: 0.7em;
-  font-weight: 800;
-  line-height: 1.08;
-  text-align: center;
-  padding: 0.45rem 0.5rem;
-  border-radius: 999px;
-  background: #ffffff;
-  border: 1px solid rgba(78, 85, 88, 0.16);
-  box-shadow: 0 5px 14px rgba(23, 63, 111, 0.06);
+.uncertainty-figure .regional .band-title {
+  fill: #007f8f;
 }
 
-.band-line i {
-  height: 2px;
-  background: linear-gradient(90deg, rgba(78, 85, 88, 0.18), var(--band-color));
-  position: relative;
+.uncertainty-figure .biological .band-title {
+  fill: #4d8f70;
 }
 
-.band-line i::after {
-  content: "";
-  position: absolute;
-  right: -1px;
-  top: -4px;
-  width: 0;
-  height: 0;
-  border-left: 8px solid var(--band-color);
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
+.uncertainty-figure .connector {
+  fill: none !important;
+  stroke-width: 2.5;
+  opacity: 0.8;
+}
+
+.uncertainty-figure .node rect {
+  fill: #ffffff;
+  stroke: #d8dde1;
+  stroke-width: 2;
+}
+
+.uncertainty-figure .node text {
+  fill: $sb5-dark;
+  font-family: "Proxima Nova", "Aptos", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 850;
+  text-anchor: middle;
 }
 
 .key-message {
