@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.26">
 
-  <title>SB5 Climate SDM Presentations – Megafauna Workshop Galapagos 2026</title>
+  <title>SB5 Climate Species Distribution Model Presentations – Megafauna Workshop Galapagos 2026</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -28,7 +28,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-482e1d32ecabca80e64addc793c4d4fa.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-5f107f21a69b97e93c2b1778aa08379d.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -136,7 +136,7 @@ Marine Megafauna and<br>Climate Change Modeling Workshop
 Save the Blue Five | Santa Cruz, Galápagos | June 8-12, 2026
 </p>
 <p class="title-description">
-Climate projections, biological data readiness, and first-generation SDMs
+Climate projections, biological data readiness, and first-generation species distribution models
 </p>
 </div>
 <div class="title-institution-panel">
@@ -158,7 +158,7 @@ Shared framing
 How to read the models
 </h3>
 <p>
-Before using maps or SDM outputs, we need a shared way to interpret them.
+Before using maps or species distribution model outputs, we need a shared way to interpret them.
 </p>
 <ul>
 <li>
@@ -168,7 +168,7 @@ Projections are “what-if” futures
 Uncertainty comes from the full workflow
 </li>
 <li>
-SDMs estimate habitat suitability, not certainty
+Species distribution models estimate habitat suitability, not certainty
 </li>
 <li>
 Outputs are decision-support tools, not final answers
@@ -216,26 +216,36 @@ Outputs are decision-support tools, not final answers
 <p>Uncertainty is not failure; it tells us where to be cautious.</p>
 </div>
 </section>
-<section id="climate-side-uncertainty" class="slide level2 technical-white" data-background-color="white">
+<section id="climate-side-uncertainty" class="slide level2 technical-white climate-choices" data-background-color="white">
 <h2>Climate-side uncertainty</h2>
 <div class="sb5-header">
 <p>IKI - Save the Blue 5 (SB5)</p>
 </div>
 <h3 class="slide-title" id="climate-side-uncertainty-1">Climate-side uncertainty</h3>
-<ul>
-<li>Scenario: which future climate pathway?</li>
-<li>Model: which global climate model?</li>
-<li>Run: which realization / initial conditions?</li>
-<li>Downscaling: how do we move from coarse to regional?</li>
-<li>Depth / variables: surface, mid-water, seafloor, oxygen, temperature, currents, etc.</li>
+<ul class="example-list">
+<li>
+<span class="main-line">Scenario: which future climate pathway?</span><span class="eg-line">e.g., SSP1-2.6, SSP2-4.5, SSP5-8.5.</span>
+</li>
+<li>
+<span class="main-line">Climate model: which global model produced the projection?</span><span class="eg-line">e.g., Earth System Models or Global Climate Models from modeling centers such as GFDL, IPSL, CESM, and others.</span>
+</li>
+<li>
+<span class="main-line">Run or ensemble member: which realization of the model?</span><span class="eg-line">e.g., r1i1p1f1, r2i1p1f1, or other ensemble members depending on the model archive.</span>
+</li>
+<li>
+<span class="main-line">Downscaling approach: how do we translate coarse projections to the regional scale?</span><span class="eg-line">e.g., delta method, statistical downscaling, and dynamical downscaling.</span>
+</li>
+<li>
+<span class="main-line">Depth and variable layer: which part of the ocean and which variable?</span><span class="eg-line">e.g., surface, mid-water, and seafloor layers for temperature, oxygen, salinity, currents, and related predictors.</span>
+</li>
 </ul>
 </section>
-<section id="biological-and-sdm-uncertainty" class="slide level2 technical-white" data-background-color="white">
-<h2>Biological and SDM uncertainty</h2>
+<section id="biological-and-species-distribution-model-uncertainty" class="slide level2 technical-white" data-background-color="white">
+<h2>Biological and species distribution model uncertainty</h2>
 <div class="sb5-header">
 <p>IKI - Save the Blue 5 (SB5)</p>
 </div>
-<h3 class="slide-title" id="biological-and-sdm-uncertainty-1">Biological and SDM uncertainty</h3>
+<h3 class="slide-title" id="biological-and-species-distribution-model-uncertainty-1">Biological and species distribution model uncertainty</h3>
 <ul>
 <li>Records: where do we have data, and where are gaps?</li>
 <li>Sampling bias: absent, or just not sampled?</li>
@@ -244,12 +254,12 @@ Outputs are decision-support tools, not final answers
 <li>Suitability: suitable does not always mean present, abundant, or critical habitat.</li>
 </ul>
 </section>
-<section id="what-sdms-show" class="slide level2 technical-white" data-background-color="white">
-<h2>What SDMs show</h2>
+<section id="what-species-distribution-models-show" class="slide level2 technical-white" data-background-color="white">
+<h2>What species distribution models show</h2>
 <div class="sb5-header">
 <p>IKI - Save the Blue 5 (SB5)</p>
 </div>
-<h3 class="slide-title" id="sdms-estimate-environmental-suitability">SDMs estimate environmental suitability</h3>
+<h3 class="slide-title" id="species-distribution-models-estimate-environmental-suitability">Species distribution models estimate environmental suitability</h3>
 <p>They do not directly show:</p>
 <div class="not-list">
 <ul>
@@ -296,13 +306,14 @@ Outputs are decision-support tools, not final answers
 <li>What can improve in the next version?</li>
 </ul>
 </section>
-<section id="from-data-to-climate-informed-sdms" class="slide level2 technical-white" data-background-color="white">
-<h2>From data to climate-informed SDMs</h2>
+<section id="from-data-to-climate-informed-species-distribution-models" class="slide level2 section-photo workflow-transition" data-background-image="../../shared/assets/images/whale-shark-wide.jpg" data-background-size="cover" data-background-position="center">
+<h2>From data to climate-informed species distribution models</h2>
 <div class="sb5-header">
 IKI - Save the Blue 5 (SB5)
 </div>
+<div class="workflow-transition-panel">
 <h2 class="slide-title">
-From data to climate-informed SDMs
+From data to climate-informed species distribution models
 </h2>
 <p>This presentation connects physical ocean projections, biological observations, and first-generation species distribution models into a transparent workflow for expert review.</p>
 <div class="pipeline">
@@ -316,13 +327,14 @@ Biological records
 Predictor extraction
 </div>
 <div>
-First-generation SDMs
+First-generation species distribution models
 </div>
 <div>
 Planning interpretation
 </div>
 </div>
 <p>The intended outcome is focused feedback on data gaps, species/model interpretation, and realistic improvements over the next year.</p>
+</div>
 <div class="sb5-footer">
 isaaksonbm · ibrito@conservation.org
 </div>
@@ -353,15 +365,15 @@ Workshop inputs already exist
 isaaksonbm · ibrito@conservation.org
 </div>
 </section>
-<section id="why-use-sdms-for-blue-5" class="slide level2 technical-white sdm-context" data-background-color="white">
-<h2>Why use SDMs for Blue 5?</h2>
+<section id="why-use-species-distribution-models-for-blue-5" class="slide level2 technical-white sdm-context" data-background-color="white">
+<h2>Why use species distribution models for Blue 5?</h2>
 <div class="sb5-header">
 IKI - Save the Blue 5 (SB5)
 </div>
 <h2 class="slide-title">
-Why use SDMs for Blue 5?
+Why use species distribution models for Blue 5?
 </h2>
-<p>Species distribution models, SDMs, are useful here because they integrate species information with physical and biogeochemical ocean conditions to estimate where suitable habitat occurs now, and how that suitability may change under climate change.</p>
+<p>Species distribution models are useful here because they integrate species information with physical and biogeochemical ocean conditions to estimate where suitable habitat occurs now, and how that suitability may change under climate change.</p>
 <div class="sdm-bridge-flow">
 <div class="sdm-inputs">
 <div class="sdm-node">
@@ -388,20 +400,20 @@ Climate change impacts
 </div>
 </div>
 <ul>
-<li>SDMs link species occurrence records with the ocean conditions that shape habitat suitability.</li>
+<li>Species distribution models link species occurrence records with the ocean conditions that shape habitat suitability.</li>
 <li>They allow us to translate physical climate change into potential biological responses.</li>
 <li>For Blue 5, this helps identify where suitable habitats may persist, decline, or shift in the future.</li>
 </ul>
 </section>
-<section id="our-baseline-sdm-framework" class="slide level2 technical-white sdm-framework" data-background-color="white">
-<h2>Our baseline SDM framework</h2>
+<section id="our-baseline-species-distribution-model-framework" class="slide level2 technical-white sdm-framework" data-background-color="white">
+<h2>Our baseline species distribution model framework</h2>
 <div class="sb5-header">
 IKI - Save the Blue 5 (SB5)
 </div>
 <h2 class="slide-title">
-Our baseline SDM framework
+Our baseline species distribution model framework
 </h2>
-<p>We use an ensemble SDM approach that combines multiple algorithms, from classical statistical models to machine-learning methods.</p>
+<p>We use an ensemble species distribution modeling approach that combines multiple algorithms, from classical statistical models to machine-learning methods.</p>
 <ul>
 <li>Ensemble of 10 algorithms, including GLMs, GAMs, MaxEnt, Random Forest, and Boosted Regression Trees.</li>
 </ul>
@@ -457,19 +469,19 @@ IKI - Save the Blue 5 (SB5)
 <h2 class="slide-title">
 Physical modeling and downscaling framework
 </h2>
-<p>This section summarizes the ocean products and workflow logic used to connect present-day baselines and future climate conditions to SDM predictors.</p>
+<p>This section summarizes the ocean products and workflow logic used to connect present-day baselines and future climate conditions to species distribution model predictors.</p>
 <ul>
 <li>Contemporary ocean conditions and future climate projections</li>
-<li>Horizontal and vertical products relevant to SB5 species</li>
+<li>Horizontal and vertical products relevant to Blue 5 species</li>
 <li>Delta/change-field downscaling to trusted baseline products</li>
-<li>Curated layers designed for visualization and SDM extraction</li>
+<li>Curated layers designed for visualization and species distribution model extraction</li>
 <li>Viewer: <a href="https://isaakbm-ocean-downscaling-viewer.share.connect.posit.cloud/">Ocean downscaling Shiny app</a></li>
 </ul>
 <div class="sb5-footer">
 isaaksonbm · ibrito@conservation.org
 </div>
 </section>
-<section id="what-is-a-physical-climate-model" class="slide level2 technical-white" data-background-color="white">
+<section id="what-is-a-physical-climate-model" class="slide level2 technical-white physical-model-slide" data-background-color="white">
 <h2>What is a physical climate model?</h2>
 <div class="sb5-header">
 IKI - Save the Blue 5 (SB5)
@@ -517,7 +529,7 @@ Downscaled future ocean products
 Curated layers and exports
 </div>
 <div>
-SDM predictor extraction
+Species distribution model predictor extraction
 </div>
 </div>
 <p>Current workflow materials are private but documented in the CESM Large Ensemble ocean downscaling repository.</p>
@@ -547,7 +559,7 @@ Ocean downscaling viewer
 <li>depth layers</li>
 <li>baseline and future products</li>
 <li>spatial patterns</li>
-<li>products feeding the SDM pipeline</li>
+<li>products feeding the species distribution modeling pipeline</li>
 </ul>
 <p><a href="https://isaakbm-ocean-downscaling-viewer.share.connect.posit.cloud/">Open app</a></p>
 <p><img data-src="../../shared/assets/qr/ocean-downscaling-viewer-qr.png" class="qr"></p>
@@ -571,37 +583,37 @@ Future work for physical products
 <li>More climate scenarios</li>
 <li>More realizations / ensemble members</li>
 <li>More depth-layer and pelagic summaries</li>
-<li>Clearer uncertainty summaries for SDM interpretation</li>
+<li>Clearer uncertainty summaries for species distribution model interpretation</li>
 </ul>
 <div class="sb5-footer">
 isaaksonbm · ibrito@conservation.org
 </div>
 </section>
-<section id="status-of-biological-data-for-sdms" class="slide level2 section-photo" data-background-image="../../shared/assets/images/panama-taxonomic-workshop-2025.jpg" data-background-size="cover" data-background-position="center">
-<h2>Status of biological data for SDMs</h2>
+<section id="status-of-biological-data-for-species-distribution-models" class="slide level2 section-photo" data-background-image="../../shared/assets/images/panama-taxonomic-workshop-2025.jpg" data-background-size="cover" data-background-position="center">
+<h2>Status of biological data for species distribution models</h2>
 <div class="section-title-panel">
 <h2>
-Status of biological data for SDMs
+Status of biological data for species distribution models
 </h2>
 <p>
 Compiled datasets, data gaps, and readiness for modeling
 </p>
 </div>
 </section>
-<section id="status-of-biological-data-for-sdms-1" class="slide level2 technical-white" data-background-color="white">
-<h2>Status of biological data for SDMs</h2>
+<section id="status-of-biological-data-for-species-distribution-models-1" class="slide level2 technical-white" data-background-color="white">
+<h2>Status of biological data for species distribution models</h2>
 <div class="sb5-header">
 IKI - Save the Blue 5 (SB5)
 </div>
 <h2 class="slide-title">
-Status of biological data for SDMs
+Status of biological data for species distribution models
 </h2>
-<p>The biological data workflow preserves, harmonizes, quality-controls, and exports telemetry and observation records before SDM modeling.</p>
+<p>The biological data workflow preserves, harmonizes, quality-controls, and exports telemetry and observation records before species distribution modeling.</p>
 <ul>
 <li>Raw data are kept auditable and unchanged</li>
 <li>Telemetry and observations are standardized separately</li>
-<li>SDM-ready files preserve provenance and QC decisions</li>
-<li>Final model inputs keep marine SDM-compatible coordinates</li>
+<li>Model-ready files preserve provenance and quality-control decisions</li>
+<li>Final model inputs keep marine species distribution modeling-compatible coordinates</li>
 <li>Viewer: <a href="https://isaakbm-megafauna-data-viewer.share.connect.posit.cloud/">Megafauna data viewer Shiny app</a></li>
 </ul>
 <div class="repo-note">
@@ -660,7 +672,7 @@ Data readiness is not uniform
 <strong>42,475</strong> filtered records in viewer
 </div>
 <div>
-<strong>8</strong> SB5 species in current app view
+<strong>8</strong> Blue 5 species in current app view
 </div>
 <div>
 <strong>71</strong> data sources
@@ -673,24 +685,24 @@ Data readiness is not uniform
 isaaksonbm · ibrito@conservation.org
 </div>
 </section>
-<section id="first-generation-of-sdms" class="slide level2 section-photo" data-background-image="../../shared/assets/images/whale-shark-wide.jpg" data-background-size="cover" data-background-position="center">
-<h2>First generation of SDMs</h2>
+<section id="first-generation-of-species-distribution-models" class="slide level2 section-photo" data-background-image="../../shared/assets/images/whale-shark-wide.jpg" data-background-size="cover" data-background-position="center">
+<h2>First generation of species distribution models</h2>
 <div class="section-title-panel">
 <h2>
-First generation of SDMs
+First generation of species distribution models
 </h2>
 <p>
 Initial outputs, performance, limitations, and model-improvement priorities
 </p>
 </div>
 </section>
-<section id="first-generation-of-sdms-1" class="slide level2 technical-white" data-background-color="white">
-<h2>First generation of SDMs</h2>
+<section id="first-generation-of-species-distribution-models-1" class="slide level2 technical-white" data-background-color="white">
+<h2>First generation of species distribution models</h2>
 <div class="sb5-header">
 IKI - Save the Blue 5 (SB5)
 </div>
 <h2 class="slide-title">
-First generation of SDMs
+First generation of species distribution models
 </h2>
 <p>These outputs are preliminary to intermediate products intended to guide the next phase of model improvement.</p>
 <ul>
@@ -712,7 +724,7 @@ IKI - Save the Blue 5 (SB5)
 <h2 class="slide-title">
 Interpreting first-generation outputs
 </h2>
-<p>When reviewing early SDM outputs, focus on whether patterns are ecologically plausible, data-supported, and useful for planning conversations.</p>
+<p>When reviewing early species distribution model outputs, focus on whether patterns are ecologically plausible, data-supported, and useful for planning conversations.</p>
 <ul>
 <li>What patterns seem robust?</li>
 <li>What patterns need caution?</li>
@@ -769,7 +781,7 @@ Future work
 <li>More climate models</li>
 <li>More climate scenarios</li>
 <li>More realizations and ensemble summaries</li>
-<li>Better uncertainty propagation into SDMs</li>
+<li>Better uncertainty propagation into species distribution models</li>
 <li>Improved biological coverage and sampling-bias treatment</li>
 <li>Clearer interpretation guidance for planning use</li>
 </ul>
@@ -817,7 +829,7 @@ Physical products
 Biological data readiness
 </div>
 <div>
-First-generation SDMs
+First-generation species distribution models
 </div>
 <div>
 Focused feedback

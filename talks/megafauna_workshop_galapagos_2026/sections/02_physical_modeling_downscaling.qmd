@@ -12,19 +12,19 @@
 <div class="sb5-header">IKI - Save the Blue 5 (SB5)</div>
 <h2 class="slide-title">Physical modeling and downscaling framework</h2>
 
-This section summarizes the ocean products and workflow logic used to connect present-day baselines and future climate conditions to SDM predictors.
+This section summarizes the ocean products and workflow logic used to connect present-day baselines and future climate conditions to species distribution model predictors.
 
 - Contemporary ocean conditions and future climate projections
-- Horizontal and vertical products relevant to SB5 species
+- Horizontal and vertical products relevant to Blue 5 species
 - Delta/change-field downscaling to trusted baseline products
-- Curated layers designed for visualization and SDM extraction
+- Curated layers designed for visualization and species distribution model extraction
 - Viewer: [Ocean downscaling Shiny app](https://isaakbm-ocean-downscaling-viewer.share.connect.posit.cloud/)
 
 <div class="sb5-footer">isaaksonbm · ibrito@conservation.org</div>
 
 ---
 
-## What is a physical climate model? {background-color="white" .technical-white}
+## What is a physical climate model? {background-color="white" .technical-white .physical-model-slide}
 
 <div class="sb5-header">IKI - Save the Blue 5 (SB5)</div>
 <h2 class="slide-title">What is a physical climate model?</h2>
@@ -61,7 +61,7 @@ Physical models represent the ocean, atmosphere, land, and ice on numerical grid
 <div>Model-specific climate change fields</div>
 <div>Downscaled future ocean products</div>
 <div>Curated layers and exports</div>
-<div>SDM predictor extraction</div>
+<div>Species distribution model predictor extraction</div>
 </div>
 
 Current workflow materials are private but documented in the CESM Large Ensemble ocean downscaling repository.
@@ -91,7 +91,7 @@ Use the viewer to inspect:
 - depth layers
 - baseline and future products
 - spatial patterns
-- products feeding the SDM pipeline
+- products feeding the species distribution modeling pipeline
 
 [Open app](https://isaakbm-ocean-downscaling-viewer.share.connect.posit.cloud/)
 
@@ -115,6 +115,6 @@ The current viewer and pipeline provide a transparent foundation. The next step 
 - More climate scenarios
 - More realizations / ensemble members
 - More depth-layer and pelagic summaries
-- Clearer uncertainty summaries for SDM interpretation
+- Clearer uncertainty summaries for species distribution model interpretation
 
 <div class="sb5-footer">isaaksonbm · ibrito@conservation.org</div>

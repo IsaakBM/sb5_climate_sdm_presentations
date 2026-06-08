@@ -1,5 +1,5 @@
 ---
-title: "SB5 Climate SDM Presentations"
+title: "SB5 Climate Species Distribution Model Presentations"
 ---
 
 This repository hosts reusable Quarto/Reveal.js presentations for Save the Blue Five work on climate projections, ocean downscaling, biological data readiness, and species distribution modeling.
@@ -8,7 +8,7 @@ This repository hosts reusable Quarto/Reveal.js presentations for Save the Blue 
 
 ### Megafauna Workshop Galapagos 2026
 
-Climate projections, biological data readiness, ocean downscaling workflows, and first-generation SDM interpretation.
+Climate projections, biological data readiness, ocean downscaling workflows, and first-generation species distribution model interpretation.
 
 [Open presentation](talks/megafauna_workshop_galapagos_2026/)
 

@@ -2,231 +2,231 @@
   {
     "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#section",
     "href": "talks/megafauna_workshop_galapagos_2026/index.html#section",
-    "title": "SB5 Climate SDM Presentations",
+    "title": "SB5 Climate Species Distribution Model Presentations",
     "section": "",
-    "text": "Marine Megafauna andClimate Change Modeling Workshop\n\n\nSave the Blue Five | Santa Cruz, Galápagos | June 8-12, 2026\n\n\nClimate projections, biological data readiness, and first-generation SDMs\n\n\n\n\nIsaac Brito-Morales, PhD June 2026"
+    "text": "Marine Megafauna andClimate Change Modeling Workshop\n\n\nSave the Blue Five | Santa Cruz, Galápagos | June 8-12, 2026\n\n\nClimate projections, biological data readiness, and first-generation species distribution models\n\n\n\n\nIsaac Brito-Morales, PhD June 2026"
   },
   {
     "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#shared-framing-how-to-read-the-models",
     "href": "talks/megafauna_workshop_galapagos_2026/index.html#shared-framing-how-to-read-the-models",
-    "title": "SB5 Climate SDM Presentations",
+    "title": "SB5 Climate Species Distribution Model Presentations",
     "section": "Shared framing: how to read the models",
-    "text": "Shared framing: how to read the models\n\n\nShared framing\n\n\nHow to read the models\n\n\nBefore using maps or SDM outputs, we need a shared way to interpret them.\n\n\n\nProjections are “what-if” futures\n\n\nUncertainty comes from the full workflow\n\n\nSDMs estimate habitat suitability, not certainty\n\n\nOutputs are decision-support tools, not final answers"
+    "text": "Shared framing: how to read the models\n\n\nShared framing\n\n\nHow to read the models\n\n\nBefore using maps or species distribution model outputs, we need a shared way to interpret them.\n\n\n\nProjections are “what-if” futures\n\n\nUncertainty comes from the full workflow\n\n\nSpecies distribution models estimate habitat suitability, not certainty\n\n\nOutputs are decision-support tools, not final answers"
   },
   {
     "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#projection-not-prediction",
     "href": "talks/megafauna_workshop_galapagos_2026/index.html#projection-not-prediction",
-    "title": "SB5 Climate SDM Presentations",
+    "title": "SB5 Climate Species Distribution Model Presentations",
     "section": "Projection not prediction",
     "text": "Projection not prediction\n\nIKI - Save the Blue 5 (SB5)\n\nProjection ≠ prediction\n\n\nPrediction\n“This is what will happen.”\n\n\nProjection\n“This is what could happen under these assumptions.”\n\n\nConceptual schematic adapted from Schoeman et al. (2023), Trends in Ecology & Evolution. doi:10.1016/j.tree.2023.04.005\n\n\n\n\nFor this workshop, climate projections help us explore plausible futures, not identify one exact future."
   },
   {
     "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#where-uncertainty-enters",
     "href": "talks/megafauna_workshop_galapagos_2026/index.html#where-uncertainty-enters",
-    "title": "SB5 Climate SDM Presentations",
+    "title": "SB5 Climate Species Distribution Model Presentations",
     "section": "Where uncertainty enters",
     "text": "Where uncertainty enters\n\nIKI - Save the Blue 5 (SB5)\n\nWhere uncertainty enters\n\nUncertainty comes from the full chain.\n\n\n\n\n\nUncertainty is not failure; it tells us where to be cautious."
   },
   {
     "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#climate-side-uncertainty",
     "href": "talks/megafauna_workshop_galapagos_2026/index.html#climate-side-uncertainty",
-    "title": "SB5 Climate SDM Presentations",
+    "title": "SB5 Climate Species Distribution Model Presentations",
     "section": "Climate-side uncertainty",
-    "text": "Climate-side uncertainty\n\nIKI - Save the Blue 5 (SB5)\n\nClimate-side uncertainty\n\nScenario: which future climate pathway?\nModel: which global climate model?\nRun: which realization / initial conditions?\nDownscaling: how do we move from coarse to regional?\nDepth / variables: surface, mid-water, seafloor, oxygen, temperature, currents, etc."
+    "text": "Climate-side uncertainty\n\nIKI - Save the Blue 5 (SB5)\n\nClimate-side uncertainty\n\n\nScenario: which future climate pathway?e.g., SSP1-2.6, SSP2-4.5, SSP5-8.5.\n\n\nClimate model: which global model produced the projection?e.g., Earth System Models or Global Climate Models from modeling centers such as GFDL, IPSL, CESM, and others.\n\n\nRun or ensemble member: which realization of the model?e.g., r1i1p1f1, r2i1p1f1, or other ensemble members depending on the model archive.\n\n\nDownscaling approach: how do we translate coarse projections to the regional scale?e.g., delta method, statistical downscaling, and dynamical downscaling.\n\n\nDepth and variable layer: which part of the ocean and which variable?e.g., surface, mid-water, and seafloor layers for temperature, oxygen, salinity, currents, and related predictors."
   },
   {
-    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#biological-and-sdm-uncertainty",
-    "href": "talks/megafauna_workshop_galapagos_2026/index.html#biological-and-sdm-uncertainty",
-    "title": "SB5 Climate SDM Presentations",
-    "section": "Biological and SDM uncertainty",
-    "text": "Biological and SDM uncertainty\n\nIKI - Save the Blue 5 (SB5)\n\nBiological and SDM uncertainty\n\nRecords: where do we have data, and where are gaps?\nSampling bias: absent, or just not sampled?\nPredictors: which variables define the niche?\nAlgorithm: which statistical approach?\nSuitability: suitable does not always mean present, abundant, or critical habitat."
+    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#biological-and-species-distribution-model-uncertainty",
+    "href": "talks/megafauna_workshop_galapagos_2026/index.html#biological-and-species-distribution-model-uncertainty",
+    "title": "SB5 Climate Species Distribution Model Presentations",
+    "section": "Biological and species distribution model uncertainty",
+    "text": "Biological and species distribution model uncertainty\n\nIKI - Save the Blue 5 (SB5)\n\nBiological and species distribution model uncertainty\n\nRecords: where do we have data, and where are gaps?\nSampling bias: absent, or just not sampled?\nPredictors: which variables define the niche?\nAlgorithm: which statistical approach?\nSuitability: suitable does not always mean present, abundant, or critical habitat."
   },
   {
-    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#what-sdms-show",
-    "href": "talks/megafauna_workshop_galapagos_2026/index.html#what-sdms-show",
-    "title": "SB5 Climate SDM Presentations",
-    "section": "What SDMs show",
-    "text": "What SDMs show\n\nIKI - Save the Blue 5 (SB5)\n\nSDMs estimate environmental suitability\nThey do not directly show:\n\n\nconfirmed presence\nabundance\nreproduction\npopulation trends\nmanagement priority by themselves\n\n\n\nSuitable ≠ occupied ≠ important habitat"
+    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#what-species-distribution-models-show",
+    "href": "talks/megafauna_workshop_galapagos_2026/index.html#what-species-distribution-models-show",
+    "title": "SB5 Climate Species Distribution Model Presentations",
+    "section": "What species distribution models show",
+    "text": "What species distribution models show\n\nIKI - Save the Blue 5 (SB5)\n\nSpecies distribution models estimate environmental suitability\nThey do not directly show:\n\n\nconfirmed presence\nabundance\nreproduction\npopulation trends\nmanagement priority by themselves\n\n\n\nSuitable ≠ occupied ≠ important habitat"
   },
   {
     "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#how-we-use-the-outputs",
     "href": "talks/megafauna_workshop_galapagos_2026/index.html#how-we-use-the-outputs",
-    "title": "SB5 Climate SDM Presentations",
+    "title": "SB5 Climate Species Distribution Model Presentations",
     "section": "How we use the outputs",
     "text": "How we use the outputs\n\nIKI - Save the Blue 5 (SB5)\n\nUse model outputs as decision-support\nThey can help identify:\n\npossible climate exposure\nfuture suitable areas\ndata gaps\nareas needing monitoring\nplaces where planning may need to be adaptive\n\n\nInterpret outputs with expert knowledge, local context, and governance feasibility."
   },
   {
     "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#workshop-rule",
     "href": "talks/megafauna_workshop_galapagos_2026/index.html#workshop-rule",
-    "title": "SB5 Climate SDM Presentations",
+    "title": "SB5 Climate Species Distribution Model Presentations",
     "section": "Workshop rule",
     "text": "Workshop rule\n\nIKI - Save the Blue 5 (SB5)\n\nThe goal is not to find “the perfect map”\nThe goal is to ask:\n\nWhat patterns are consistent?\nWhat looks uncertain?\nWhat needs expert review?\nWhat can improve in the next version?"
   },
   {
-    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#from-data-to-climate-informed-sdms",
-    "href": "talks/megafauna_workshop_galapagos_2026/index.html#from-data-to-climate-informed-sdms",
-    "title": "SB5 Climate SDM Presentations",
-    "section": "From data to climate-informed SDMs",
-    "text": "From data to climate-informed SDMs\n\nIKI - Save the Blue 5 (SB5)\n\n\nFrom data to climate-informed SDMs\n\nThis presentation connects physical ocean projections, biological observations, and first-generation species distribution models into a transparent workflow for expert review.\n\n\nPhysical ocean data\n\n\nBiological records\n\n\nPredictor extraction\n\n\nFirst-generation SDMs\n\n\nPlanning interpretation\n\n\nThe intended outcome is focused feedback on data gaps, species/model interpretation, and realistic improvements over the next year.\n\nisaaksonbm · ibrito@conservation.org"
+    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#from-data-to-climate-informed-species-distribution-models",
+    "href": "talks/megafauna_workshop_galapagos_2026/index.html#from-data-to-climate-informed-species-distribution-models",
+    "title": "SB5 Climate Species Distribution Model Presentations",
+    "section": "From data to climate-informed species distribution models",
+    "text": "From data to climate-informed species distribution models\n\nIKI - Save the Blue 5 (SB5)\n\n\n\nFrom data to climate-informed species distribution models\n\nThis presentation connects physical ocean projections, biological observations, and first-generation species distribution models into a transparent workflow for expert review.\n\n\nPhysical ocean data\n\n\nBiological records\n\n\nPredictor extraction\n\n\nFirst-generation species distribution models\n\n\nPlanning interpretation\n\n\nThe intended outcome is focused feedback on data gaps, species/model interpretation, and realistic improvements over the next year.\n\n\nisaaksonbm · ibrito@conservation.org"
   },
   {
     "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#workshop-inputs-already-exist",
     "href": "talks/megafauna_workshop_galapagos_2026/index.html#workshop-inputs-already-exist",
-    "title": "SB5 Climate SDM Presentations",
+    "title": "SB5 Climate Species Distribution Model Presentations",
     "section": "Workshop inputs already exist",
     "text": "Workshop inputs already exist\n\nIKI - Save the Blue 5 (SB5)\n\n\nWorkshop inputs already exist\n\n\n\n\nTaxonomic and data workshop: Panama 2025\nPhysical modeling workshop: Toulouse 2025\nBiological data preparation repository\nOcean downscaling workflow repository\nTwo Shiny viewers for review and discussion\n\n\n\n\n\n\n\nisaaksonbm · ibrito@conservation.org"
   },
   {
-    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#why-use-sdms-for-blue-5",
-    "href": "talks/megafauna_workshop_galapagos_2026/index.html#why-use-sdms-for-blue-5",
-    "title": "SB5 Climate SDM Presentations",
-    "section": "Why use SDMs for Blue 5?",
-    "text": "Why use SDMs for Blue 5?\n\nIKI - Save the Blue 5 (SB5)\n\n\nWhy use SDMs for Blue 5?\n\nSpecies distribution models, SDMs, are useful here because they integrate species information with physical and biogeochemical ocean conditions to estimate where suitable habitat occurs now, and how that suitability may change under climate change.\n\n\n\nSpecies records\n\n\n+\n\n\nOcean conditions\n\n\n\n→\n\n\nHabitat suitability\n\n\n→\n\n\nClimate change impacts\n\n\n\nSDMs link species occurrence records with the ocean conditions that shape habitat suitability.\nThey allow us to translate physical climate change into potential biological responses.\nFor Blue 5, this helps identify where suitable habitats may persist, decline, or shift in the future."
+    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#why-use-species-distribution-models-for-blue-5",
+    "href": "talks/megafauna_workshop_galapagos_2026/index.html#why-use-species-distribution-models-for-blue-5",
+    "title": "SB5 Climate Species Distribution Model Presentations",
+    "section": "Why use species distribution models for Blue 5?",
+    "text": "Why use species distribution models for Blue 5?\n\nIKI - Save the Blue 5 (SB5)\n\n\nWhy use species distribution models for Blue 5?\n\nSpecies distribution models are useful here because they integrate species information with physical and biogeochemical ocean conditions to estimate where suitable habitat occurs now, and how that suitability may change under climate change.\n\n\n\nSpecies records\n\n\n+\n\n\nOcean conditions\n\n\n\n→\n\n\nHabitat suitability\n\n\n→\n\n\nClimate change impacts\n\n\n\nSpecies distribution models link species occurrence records with the ocean conditions that shape habitat suitability.\nThey allow us to translate physical climate change into potential biological responses.\nFor Blue 5, this helps identify where suitable habitats may persist, decline, or shift in the future."
   },
   {
-    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#our-baseline-sdm-framework",
-    "href": "talks/megafauna_workshop_galapagos_2026/index.html#our-baseline-sdm-framework",
-    "title": "SB5 Climate SDM Presentations",
-    "section": "Our baseline SDM framework",
-    "text": "Our baseline SDM framework\n\nIKI - Save the Blue 5 (SB5)\n\n\nOur baseline SDM framework\n\nWe use an ensemble SDM approach that combines multiple algorithms, from classical statistical models to machine-learning methods.\n\nEnsemble of 10 algorithms, including GLMs, GAMs, MaxEnt, Random Forest, and Boosted Regression Trees.\n\n\n\\[\n\\text{logit}(p_i) =\n\\alpha +\n\\beta_T T_i +\n\\beta_S S_i +\n\\beta_O O_{2i} +\n\\beta_{Chl} Chl_i +\n\\beta_V V_i +\n\\beta_F FrontFreq_i +\n\\beta_U Upw_i +\n\\beta_E ENSO_t +\n\\varepsilon_i\n\\]\n\n\n\nState variables\n\nTemperature, salinity, dissolved oxygen, chlorophyll, and current velocity.\n\n\n\nOcean variability predictors\n\nOcean front frequency, upwelling, and ENSO.\n\n\n\n\nConceptual representation of the predictors used to estimate probability of occurrence or habitat suitability. This is not the exact fitted formula for every algorithm in the ensemble."
+    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#our-baseline-species-distribution-model-framework",
+    "href": "talks/megafauna_workshop_galapagos_2026/index.html#our-baseline-species-distribution-model-framework",
+    "title": "SB5 Climate Species Distribution Model Presentations",
+    "section": "Our baseline species distribution model framework",
+    "text": "Our baseline species distribution model framework\n\nIKI - Save the Blue 5 (SB5)\n\n\nOur baseline species distribution model framework\n\nWe use an ensemble species distribution modeling approach that combines multiple algorithms, from classical statistical models to machine-learning methods.\n\nEnsemble of 10 algorithms, including GLMs, GAMs, MaxEnt, Random Forest, and Boosted Regression Trees.\n\n\n\\[\n\\text{logit}(p_i) =\n\\alpha +\n\\beta_T T_i +\n\\beta_S S_i +\n\\beta_O O_{2i} +\n\\beta_{Chl} Chl_i +\n\\beta_V V_i +\n\\beta_F FrontFreq_i +\n\\beta_U Upw_i +\n\\beta_E ENSO_t +\n\\varepsilon_i\n\\]\n\n\n\nState variables\n\nTemperature, salinity, dissolved oxygen, chlorophyll, and current velocity.\n\n\n\nOcean variability predictors\n\nOcean front frequency, upwelling, and ENSO.\n\n\n\n\nConceptual representation of the predictors used to estimate probability of occurrence or habitat suitability. This is not the exact fitted formula for every algorithm in the ensemble."
   },
   {
     "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#physical-modeling-and-downscaling-framework",
     "href": "talks/megafauna_workshop_galapagos_2026/index.html#physical-modeling-and-downscaling-framework",
-    "title": "SB5 Climate SDM Presentations",
+    "title": "SB5 Climate Species Distribution Model Presentations",
     "section": "Physical modeling and downscaling framework",
     "text": "Physical modeling and downscaling framework\n\n\nPhysical modeling and downscaling framework\n\n\nOceanographic datasets, downscaling approaches, and integration with biological data"
   },
   {
     "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#physical-modeling-and-downscaling-framework-1",
     "href": "talks/megafauna_workshop_galapagos_2026/index.html#physical-modeling-and-downscaling-framework-1",
-    "title": "SB5 Climate SDM Presentations",
+    "title": "SB5 Climate Species Distribution Model Presentations",
     "section": "Physical modeling and downscaling framework",
-    "text": "Physical modeling and downscaling framework\n\nIKI - Save the Blue 5 (SB5)\n\n\nPhysical modeling and downscaling framework\n\nThis section summarizes the ocean products and workflow logic used to connect present-day baselines and future climate conditions to SDM predictors.\n\nContemporary ocean conditions and future climate projections\nHorizontal and vertical products relevant to SB5 species\nDelta/change-field downscaling to trusted baseline products\nCurated layers designed for visualization and SDM extraction\nViewer: Ocean downscaling Shiny app\n\n\nisaaksonbm · ibrito@conservation.org"
+    "text": "Physical modeling and downscaling framework\n\nIKI - Save the Blue 5 (SB5)\n\n\nPhysical modeling and downscaling framework\n\nThis section summarizes the ocean products and workflow logic used to connect present-day baselines and future climate conditions to species distribution model predictors.\n\nContemporary ocean conditions and future climate projections\nHorizontal and vertical products relevant to Blue 5 species\nDelta/change-field downscaling to trusted baseline products\nCurated layers designed for visualization and species distribution model extraction\nViewer: Ocean downscaling Shiny app\n\n\nisaaksonbm · ibrito@conservation.org"
   },
   {
     "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#what-is-a-physical-climate-model",
     "href": "talks/megafauna_workshop_galapagos_2026/index.html#what-is-a-physical-climate-model",
-    "title": "SB5 Climate SDM Presentations",
+    "title": "SB5 Climate Species Distribution Model Presentations",
     "section": "What is a physical climate model?",
     "text": "What is a physical climate model?\n\nIKI - Save the Blue 5 (SB5)\n\n\nWhat is a physical climate model?\n\n\n\nPhysical models represent the ocean, atmosphere, land, and ice on numerical grids. They simulate energy and mass exchange through time, producing variables that can be summarized for ecological modeling.\n\nhorizontal grid\nvertical layers\nphysical and biogeochemical processes\npresent-day and future time windows\n\n\n\n\n\n\n\nisaaksonbm · ibrito@conservation.org"
   },
   {
     "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#downscaling-pipeline",
     "href": "talks/megafauna_workshop_galapagos_2026/index.html#downscaling-pipeline",
-    "title": "SB5 Climate SDM Presentations",
+    "title": "SB5 Climate Species Distribution Model Presentations",
     "section": "Downscaling pipeline",
-    "text": "Downscaling pipeline\n\nIKI - Save the Blue 5 (SB5)\n\n\nDownscaling pipeline\n\n\n\nTrusted baseline ocean products\n\n\nModel-specific climate change fields\n\n\nDownscaled future ocean products\n\n\nCurated layers and exports\n\n\nSDM predictor extraction\n\n\nCurrent workflow materials are private but documented in the CESM Large Ensemble ocean downscaling repository.\n\nLocal reference: shared/references/repos/cesmle-ocn-fetch-readme.md\n\n\nisaaksonbm · ibrito@conservation.org"
+    "text": "Downscaling pipeline\n\nIKI - Save the Blue 5 (SB5)\n\n\nDownscaling pipeline\n\n\n\nTrusted baseline ocean products\n\n\nModel-specific climate change fields\n\n\nDownscaled future ocean products\n\n\nCurated layers and exports\n\n\nSpecies distribution model predictor extraction\n\n\nCurrent workflow materials are private but documented in the CESM Large Ensemble ocean downscaling repository.\n\nLocal reference: shared/references/repos/cesmle-ocn-fetch-readme.md\n\n\nisaaksonbm · ibrito@conservation.org"
   },
   {
     "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#ocean-downscaling-viewer",
     "href": "talks/megafauna_workshop_galapagos_2026/index.html#ocean-downscaling-viewer",
-    "title": "SB5 Climate SDM Presentations",
+    "title": "SB5 Climate Species Distribution Model Presentations",
     "section": "Ocean downscaling viewer",
-    "text": "Ocean downscaling viewer\n\nIKI - Save the Blue 5 (SB5)\n\n\nOcean downscaling viewer\n\n\n\n\n\n\nUse the viewer to inspect:\n\nvariables\ndepth layers\nbaseline and future products\nspatial patterns\nproducts feeding the SDM pipeline\n\nOpen app\n\n\n\n\nisaaksonbm · ibrito@conservation.org"
+    "text": "Ocean downscaling viewer\n\nIKI - Save the Blue 5 (SB5)\n\n\nOcean downscaling viewer\n\n\n\n\n\n\nUse the viewer to inspect:\n\nvariables\ndepth layers\nbaseline and future products\nspatial patterns\nproducts feeding the species distribution modeling pipeline\n\nOpen app\n\n\n\n\nisaaksonbm · ibrito@conservation.org"
   },
   {
     "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#future-work-for-physical-products",
     "href": "talks/megafauna_workshop_galapagos_2026/index.html#future-work-for-physical-products",
-    "title": "SB5 Climate SDM Presentations",
+    "title": "SB5 Climate Species Distribution Model Presentations",
     "section": "Future work for physical products",
-    "text": "Future work for physical products\n\nIKI - Save the Blue 5 (SB5)\n\n\nFuture work for physical products\n\nThe current viewer and pipeline provide a transparent foundation. The next step is to expand the ensemble and make uncertainty easier to interpret.\n\nMore model families\nMore climate scenarios\nMore realizations / ensemble members\nMore depth-layer and pelagic summaries\nClearer uncertainty summaries for SDM interpretation\n\n\nisaaksonbm · ibrito@conservation.org"
+    "text": "Future work for physical products\n\nIKI - Save the Blue 5 (SB5)\n\n\nFuture work for physical products\n\nThe current viewer and pipeline provide a transparent foundation. The next step is to expand the ensemble and make uncertainty easier to interpret.\n\nMore model families\nMore climate scenarios\nMore realizations / ensemble members\nMore depth-layer and pelagic summaries\nClearer uncertainty summaries for species distribution model interpretation\n\n\nisaaksonbm · ibrito@conservation.org"
   },
   {
-    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#status-of-biological-data-for-sdms",
-    "href": "talks/megafauna_workshop_galapagos_2026/index.html#status-of-biological-data-for-sdms",
-    "title": "SB5 Climate SDM Presentations",
-    "section": "Status of biological data for SDMs",
-    "text": "Status of biological data for SDMs\n\n\nStatus of biological data for SDMs\n\n\nCompiled datasets, data gaps, and readiness for modeling"
+    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#status-of-biological-data-for-species-distribution-models",
+    "href": "talks/megafauna_workshop_galapagos_2026/index.html#status-of-biological-data-for-species-distribution-models",
+    "title": "SB5 Climate Species Distribution Model Presentations",
+    "section": "Status of biological data for species distribution models",
+    "text": "Status of biological data for species distribution models\n\n\nStatus of biological data for species distribution models\n\n\nCompiled datasets, data gaps, and readiness for modeling"
   },
   {
-    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#status-of-biological-data-for-sdms-1",
-    "href": "talks/megafauna_workshop_galapagos_2026/index.html#status-of-biological-data-for-sdms-1",
-    "title": "SB5 Climate SDM Presentations",
-    "section": "Status of biological data for SDMs",
-    "text": "Status of biological data for SDMs\n\nIKI - Save the Blue 5 (SB5)\n\n\nStatus of biological data for SDMs\n\nThe biological data workflow preserves, harmonizes, quality-controls, and exports telemetry and observation records before SDM modeling.\n\nRaw data are kept auditable and unchanged\nTelemetry and observations are standardized separately\nSDM-ready files preserve provenance and QC decisions\nFinal model inputs keep marine SDM-compatible coordinates\nViewer: Megafauna data viewer Shiny app\n\n\nLocal reference: shared/references/repos/pre-sdm-bio-data-prep-readme.md\n\n\nisaaksonbm · ibrito@conservation.org"
+    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#status-of-biological-data-for-species-distribution-models-1",
+    "href": "talks/megafauna_workshop_galapagos_2026/index.html#status-of-biological-data-for-species-distribution-models-1",
+    "title": "SB5 Climate Species Distribution Model Presentations",
+    "section": "Status of biological data for species distribution models",
+    "text": "Status of biological data for species distribution models\n\nIKI - Save the Blue 5 (SB5)\n\n\nStatus of biological data for species distribution models\n\nThe biological data workflow preserves, harmonizes, quality-controls, and exports telemetry and observation records before species distribution modeling.\n\nRaw data are kept auditable and unchanged\nTelemetry and observations are standardized separately\nModel-ready files preserve provenance and quality-control decisions\nFinal model inputs keep marine species distribution modeling-compatible coordinates\nViewer: Megafauna data viewer Shiny app\n\n\nLocal reference: shared/references/repos/pre-sdm-bio-data-prep-readme.md\n\n\nisaaksonbm · ibrito@conservation.org"
   },
   {
     "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#megafauna-data-viewer",
     "href": "talks/megafauna_workshop_galapagos_2026/index.html#megafauna-data-viewer",
-    "title": "SB5 Climate SDM Presentations",
+    "title": "SB5 Climate Species Distribution Model Presentations",
     "section": "Megafauna data viewer",
     "text": "Megafauna data viewer\n\nIKI - Save the Blue 5 (SB5)\n\n\nMegafauna data viewer\n\n\n\n\n\n\nUse the viewer to inspect:\n\nspecies-level records\nspatial coverage\ntemporal coverage\ndata sources\nmodeling readiness\n\nOpen app\n\n\n\n\nisaaksonbm · ibrito@conservation.org"
   },
   {
     "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#data-readiness-is-not-uniform",
     "href": "talks/megafauna_workshop_galapagos_2026/index.html#data-readiness-is-not-uniform",
-    "title": "SB5 Climate SDM Presentations",
+    "title": "SB5 Climate Species Distribution Model Presentations",
     "section": "Data readiness is not uniform",
-    "text": "Data readiness is not uniform\n\nIKI - Save the Blue 5 (SB5)\n\n\nData readiness is not uniform\n\nThe goal is to make data strengths and limitations visible before modeling decisions are made.\n\nStronger data support more confident model interpretation\nSparse data require simpler or more cautious interpretation\nBiased sampling can shape apparent habitat relationships\nExpert feedback is needed to prioritize realistic improvements\n\n\n\n42,475 filtered records in viewer\n\n\n8 SB5 species in current app view\n\n\n71 data sources\n\n\n2 data types: telemetry and observations\n\n\n\nisaaksonbm · ibrito@conservation.org"
+    "text": "Data readiness is not uniform\n\nIKI - Save the Blue 5 (SB5)\n\n\nData readiness is not uniform\n\nThe goal is to make data strengths and limitations visible before modeling decisions are made.\n\nStronger data support more confident model interpretation\nSparse data require simpler or more cautious interpretation\nBiased sampling can shape apparent habitat relationships\nExpert feedback is needed to prioritize realistic improvements\n\n\n\n42,475 filtered records in viewer\n\n\n8 Blue 5 species in current app view\n\n\n71 data sources\n\n\n2 data types: telemetry and observations\n\n\n\nisaaksonbm · ibrito@conservation.org"
   },
   {
-    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#first-generation-of-sdms",
-    "href": "talks/megafauna_workshop_galapagos_2026/index.html#first-generation-of-sdms",
-    "title": "SB5 Climate SDM Presentations",
-    "section": "First generation of SDMs",
-    "text": "First generation of SDMs\n\n\nFirst generation of SDMs\n\n\nInitial outputs, performance, limitations, and model-improvement priorities"
+    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#first-generation-of-species-distribution-models",
+    "href": "talks/megafauna_workshop_galapagos_2026/index.html#first-generation-of-species-distribution-models",
+    "title": "SB5 Climate Species Distribution Model Presentations",
+    "section": "First generation of species distribution models",
+    "text": "First generation of species distribution models\n\n\nFirst generation of species distribution models\n\n\nInitial outputs, performance, limitations, and model-improvement priorities"
   },
   {
-    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#first-generation-of-sdms-1",
-    "href": "talks/megafauna_workshop_galapagos_2026/index.html#first-generation-of-sdms-1",
-    "title": "SB5 Climate SDM Presentations",
-    "section": "First generation of SDMs",
-    "text": "First generation of SDMs\n\nIKI - Save the Blue 5 (SB5)\n\n\nFirst generation of SDMs\n\nThese outputs are preliminary to intermediate products intended to guide the next phase of model improvement.\n\nPresent initial model outputs\nReview performance and ecological plausibility\nIdentify limitations and assumptions\nSeparate data gaps from model gaps\nPrioritize realistic improvements over the next year\n\n\nisaaksonbm · ibrito@conservation.org"
+    "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#first-generation-of-species-distribution-models-1",
+    "href": "talks/megafauna_workshop_galapagos_2026/index.html#first-generation-of-species-distribution-models-1",
+    "title": "SB5 Climate Species Distribution Model Presentations",
+    "section": "First generation of species distribution models",
+    "text": "First generation of species distribution models\n\nIKI - Save the Blue 5 (SB5)\n\n\nFirst generation of species distribution models\n\nThese outputs are preliminary to intermediate products intended to guide the next phase of model improvement.\n\nPresent initial model outputs\nReview performance and ecological plausibility\nIdentify limitations and assumptions\nSeparate data gaps from model gaps\nPrioritize realistic improvements over the next year\n\n\nisaaksonbm · ibrito@conservation.org"
   },
   {
     "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#interpreting-first-generation-outputs",
     "href": "talks/megafauna_workshop_galapagos_2026/index.html#interpreting-first-generation-outputs",
-    "title": "SB5 Climate SDM Presentations",
+    "title": "SB5 Climate Species Distribution Model Presentations",
     "section": "Interpreting first-generation outputs",
-    "text": "Interpreting first-generation outputs\n\nIKI - Save the Blue 5 (SB5)\n\n\nInterpreting first-generation outputs\n\nWhen reviewing early SDM outputs, focus on whether patterns are ecologically plausible, data-supported, and useful for planning conversations.\n\nWhat patterns seem robust?\nWhat patterns need caution?\nWhere does expert knowledge disagree with the model?\nWhich improvements would most strengthen final outputs?\n\n\nisaaksonbm · ibrito@conservation.org"
+    "text": "Interpreting first-generation outputs\n\nIKI - Save the Blue 5 (SB5)\n\n\nInterpreting first-generation outputs\n\nWhen reviewing early species distribution model outputs, focus on whether patterns are ecologically plausible, data-supported, and useful for planning conversations.\n\nWhat patterns seem robust?\nWhat patterns need caution?\nWhere does expert knowledge disagree with the model?\nWhich improvements would most strengthen final outputs?\n\n\nisaaksonbm · ibrito@conservation.org"
   },
   {
     "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#feedback-should-be-specific",
     "href": "talks/megafauna_workshop_galapagos_2026/index.html#feedback-should-be-specific",
-    "title": "SB5 Climate SDM Presentations",
+    "title": "SB5 Climate Species Distribution Model Presentations",
     "section": "Feedback should be specific",
     "text": "Feedback should be specific\n\nIKI - Save the Blue 5 (SB5)\n\n\nFeedback should be specific\n\nThe most useful feedback identifies what can realistically improve the final outputs within the project timeline.\n\n\nData feedback\n\nmissing sources\nspatial or temporal gaps\nquestionable records\nspecies-specific sampling issues\n\n\n\nModel feedback\n\nimplausible spatial patterns\nmissing predictors\nscale or depth concerns\nuncertainty communication\n\n\n\n\nisaaksonbm · ibrito@conservation.org"
   },
   {
     "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#future-work",
     "href": "talks/megafauna_workshop_galapagos_2026/index.html#future-work",
-    "title": "SB5 Climate SDM Presentations",
+    "title": "SB5 Climate Species Distribution Model Presentations",
     "section": "Future work",
-    "text": "Future work\n\nIKI - Save the Blue 5 (SB5)\n\n\nFuture work\n\nThe next phase should expand uncertainty representation and strengthen the connection between model outputs and conservation decisions.\n\nMore climate models\nMore climate scenarios\nMore realizations and ensemble summaries\nBetter uncertainty propagation into SDMs\nImproved biological coverage and sampling-bias treatment\nClearer interpretation guidance for planning use\n\n\nisaaksonbm · ibrito@conservation.org"
+    "text": "Future work\n\nIKI - Save the Blue 5 (SB5)\n\n\nFuture work\n\nThe next phase should expand uncertainty representation and strengthen the connection between model outputs and conservation decisions.\n\nMore climate models\nMore climate scenarios\nMore realizations and ensemble summaries\nBetter uncertainty propagation into species distribution models\nImproved biological coverage and sampling-bias treatment\nClearer interpretation guidance for planning use\n\n\nisaaksonbm · ibrito@conservation.org"
   },
   {
     "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#discussion-questions",
     "href": "talks/megafauna_workshop_galapagos_2026/index.html#discussion-questions",
-    "title": "SB5 Climate SDM Presentations",
+    "title": "SB5 Climate Species Distribution Model Presentations",
     "section": "Discussion questions",
     "text": "Discussion questions\n\nIKI - Save the Blue 5 (SB5)\n\n\nDiscussion questions\n\n\n\nWhich data gaps matter most for the project timeline?\nWhich species or regions should be prioritized?\nWhich uncertainties must be communicated most clearly?\nWhat outputs would be most useful for conservation planning?\n\n\n\nisaaksonbm · ibrito@conservation.org"
   },
   {
     "objectID": "talks/megafauna_workshop_galapagos_2026/index.html#take-home-message",
     "href": "talks/megafauna_workshop_galapagos_2026/index.html#take-home-message",
-    "title": "SB5 Climate SDM Presentations",
+    "title": "SB5 Climate Species Distribution Model Presentations",
     "section": "Take-home message",
-    "text": "Take-home message\n\nIKI - Save the Blue 5 (SB5)\n\n\nTake-home message\n\nThe workshop is not only about showing model outputs. It is about making the workflow transparent enough that experts can improve the data, interpret the models responsibly, and identify the next most important steps.\n\n\nShared framing\n\n\nPhysical products\n\n\nBiological data readiness\n\n\nFirst-generation SDMs\n\n\nFocused feedback\n\n\n\nisaaksonbm · ibrito@conservation.org"
+    "text": "Take-home message\n\nIKI - Save the Blue 5 (SB5)\n\n\nTake-home message\n\nThe workshop is not only about showing model outputs. It is about making the workflow transparent enough that experts can improve the data, interpret the models responsibly, and identify the next most important steps.\n\n\nShared framing\n\n\nPhysical products\n\n\nBiological data readiness\n\n\nFirst-generation species distribution models\n\n\nFocused feedback\n\n\n\nisaaksonbm · ibrito@conservation.org"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "SB5 Climate SDM Presentations",
+    "title": "SB5 Climate Species Distribution Model Presentations",
     "section": "",
     "text": "This repository hosts reusable Quarto/Reveal.js presentations for Save the Blue Five work on climate projections, ocean downscaling, biological data readiness, and species distribution modeling."
   },
   {
     "objectID": "index.html#talks",
     "href": "index.html#talks",
-    "title": "SB5 Climate SDM Presentations",
+    "title": "SB5 Climate Species Distribution Model Presentations",
     "section": "Talks",
-    "text": "Talks\n\nMegafauna Workshop Galapagos 2026\nClimate projections, biological data readiness, ocean downscaling workflows, and first-generation SDM interpretation.\nOpen presentation"
+    "text": "Talks\n\nMegafauna Workshop Galapagos 2026\nClimate projections, biological data readiness, ocean downscaling workflows, and first-generation species distribution model interpretation.\nOpen presentation"
   },
   {
     "objectID": "index.html#reproducibility",
     "href": "index.html#reproducibility",
-    "title": "SB5 Climate SDM Presentations",
+    "title": "SB5 Climate Species Distribution Model Presentations",
     "section": "Reproducibility",
     "text": "Reproducibility\nThe source files live in the repository root and talks/. Rendered GitHub Pages files are written to docs/.\nquarto render\nR package versions are locked with renv:\nrenv::restore()"
   }

@@ -16,7 +16,7 @@ format:
     toc: false
 
 website:
-  title: "SB5 Climate SDM Presentations"
+  title: "SB5 Climate Species Distribution Model Presentations"
   navbar:
     left:
       - href: index.qmd

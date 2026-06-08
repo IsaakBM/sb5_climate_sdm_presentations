@@ -57,7 +57,7 @@ $presentation-font-size-root: 24px;
 .reveal p,
 .reveal li {
   line-height: 1.18;
-  font-size: 0.92em;
+  font-size: 0.99em;
 }
 
 .reveal ul {
@@ -118,6 +118,11 @@ $presentation-font-size-root: 24px;
   color: $sb5-dark;
   padding: 1.15rem 1.65rem 3.05rem 1.65rem;
   box-sizing: border-box;
+}
+
+.technical-white li {
+  font-size: 1.02em;
+  margin: 0.28rem 0;
 }
 
 .technical-white h2 {
@@ -317,12 +322,12 @@ $presentation-font-size-root: 24px;
 
 .shared-framing-panel {
   position: absolute;
-  left: 2.2rem;
-  top: 1.6rem;
-  width: min(58rem, 76%);
+  left: 2rem;
+  top: 1.45rem;
+  width: min(64rem, 82%);
   background: rgba(0, 65, 86, 0.78);
   color: white;
-  padding: 1rem 1.25rem 1.05rem;
+  padding: 1.08rem 1.38rem 1.16rem;
   box-shadow: 0 14px 34px rgba(0, 0, 0, 0.22);
 }
 
@@ -350,7 +355,7 @@ $presentation-font-size-root: 24px;
 .shared-framing-panel p {
   max-width: 90%;
   margin: 0 0 0.55rem;
-  font-size: 0.62em;
+  font-size: 0.7em;
   line-height: 1.18;
 }
 
@@ -359,8 +364,8 @@ $presentation-font-size-root: 24px;
 }
 
 .shared-framing-panel li {
-  margin: 0.2rem 0;
-  font-size: 0.55em;
+  margin: 0.28rem 0;
+  font-size: 0.7em;
   line-height: 1.16;
 }
 
@@ -389,6 +394,54 @@ $presentation-font-size-root: 24px;
   text-transform: uppercase;
   border-bottom: 2px solid white;
   padding-bottom: 0.25rem;
+}
+
+.workflow-transition .sb5-header {
+  display: none;
+}
+
+.workflow-transition-panel {
+  position: absolute;
+  left: 2rem;
+  top: 1.35rem;
+  width: min(64rem, 84%);
+  background: rgba(0, 65, 86, 0.8);
+  color: white;
+  padding: 1.08rem 1.35rem 1.18rem;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.22);
+}
+
+.workflow-transition-panel h2.slide-title {
+  color: white;
+  font-size: 1.32em;
+  line-height: 1.08;
+  margin: 0 0 0.5rem 0;
+}
+
+.workflow-transition-panel p {
+  color: white;
+  max-width: 92%;
+  font-size: 0.72em;
+  line-height: 1.18;
+}
+
+.workflow-transition-panel .pipeline {
+  margin: 0.68rem 0;
+  background: rgba(255, 255, 255, 0.12);
+  border-left-color: $sb5-yellow;
+}
+
+.workflow-transition-panel .pipeline > div {
+  min-height: 2.4rem;
+  font-size: 0.7em;
+  color: white;
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.34);
+  box-shadow: none;
+}
+
+.workflow-transition-panel .pipeline > div:not(:last-child)::after {
+  border-left-color: $sb5-yellow;
 }
 
 .app-demo .app-grid {
@@ -428,6 +481,15 @@ $presentation-font-size-root: 24px;
   grid-template-columns: 0.9fr 1.1fr;
   gap: 1.4rem;
   align-items: center;
+}
+
+.physical-model-slide .two-col-visual {
+  align-items: start;
+  margin-top: 0.15rem;
+}
+
+.physical-model-slide .two-col-visual > div:first-child {
+  padding-top: 0.15rem;
 }
 
 .two-col-visual img {
@@ -483,7 +545,7 @@ $presentation-font-size-root: 24px;
   border: 2px solid #d8dde1;
   border-radius: 1.4rem;
   color: $sb5-dark;
-  font-size: 0.62em;
+  font-size: 0.64em;
   font-weight: 850;
   line-height: 1.1;
   text-align: center;
@@ -505,6 +567,40 @@ $presentation-font-size-root: 24px;
 
 .questions {
   font-size: 0.9em;
+}
+
+.example-list {
+  margin-top: 0.45rem;
+  max-width: 94%;
+}
+
+.example-list li {
+  position: relative;
+  margin: 0.34rem 0;
+  padding-left: 0.95em;
+  font-size: 0.86em;
+  line-height: 1.16;
+}
+
+.example-list li::before {
+  position: absolute;
+  left: 0;
+  top: 0.02em;
+  width: auto;
+  margin-left: 0;
+}
+
+.example-list .main-line {
+  display: block;
+  color: #222629;
+}
+
+.example-list .eg-line {
+  display: block;
+  margin-top: 0.08rem;
+  color: #707980;
+  font-size: 0.64em;
+  line-height: 1.14;
 }
 
 .sdm-context > p,
@@ -571,7 +667,7 @@ $presentation-font-size-root: 24px;
 
 .sdm-context li,
 .sdm-framework li {
-  font-size: 0.72em;
+  font-size: 0.84em;
 }
 
 .sdm-equation {

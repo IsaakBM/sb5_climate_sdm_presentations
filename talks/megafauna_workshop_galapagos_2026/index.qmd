@@ -23,7 +23,7 @@ format:
 <div class="title-panel">
 <h1>Marine Megafauna and<br>Climate Change Modeling Workshop</h1>
 <p class="title-subtitle">Save the Blue Five | Santa Cruz, Galápagos | June 8-12, 2026</p>
-<p class="title-description">Climate projections, biological data readiness, and first-generation SDMs</p>
+<p class="title-description">Climate projections, biological data readiness, and first-generation species distribution models</p>
 </div>
 
 <div class="title-institution-panel">

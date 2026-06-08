@@ -3,11 +3,11 @@
 <div class="shared-framing-panel">
 <h2>Shared framing</h2>
 <h3>How to read the models</h3>
-<p>Before using maps or SDM outputs, we need a shared way to interpret them.</p>
+<p>Before using maps or species distribution model outputs, we need a shared way to interpret them.</p>
 <ul>
 <li>Projections are “what-if” futures</li>
 <li>Uncertainty comes from the full workflow</li>
-<li>SDMs estimate habitat suitability, not certainty</li>
+<li>Species distribution models estimate habitat suitability, not certainty</li>
 <li>Outputs are decision-support tools, not final answers</li>
 </ul>
 </div>
@@ -70,7 +70,7 @@ Uncertainty is not failure; it tells us where to be cautious.
 
 ---
 
-## Climate-side uncertainty {background-color="white" .technical-white}
+## Climate-side uncertainty {background-color="white" .technical-white .climate-choices}
 
 ::: {.sb5-header}
 IKI - Save the Blue 5 (SB5)
@@ -78,21 +78,23 @@ IKI - Save the Blue 5 (SB5)
 
 ### Climate-side uncertainty {.slide-title}
 
-- Scenario: which future climate pathway?
-- Model: which global climate model?
-- Run: which realization / initial conditions?
-- Downscaling: how do we move from coarse to regional?
-- Depth / variables: surface, mid-water, seafloor, oxygen, temperature, currents, etc.
+<ul class="example-list">
+<li><span class="main-line">Scenario: which future climate pathway?</span><span class="eg-line">e.g., SSP1-2.6, SSP2-4.5, SSP5-8.5.</span></li>
+<li><span class="main-line">Climate model: which global model produced the projection?</span><span class="eg-line">e.g., Earth System Models or Global Climate Models from modeling centers such as GFDL, IPSL, CESM, and others.</span></li>
+<li><span class="main-line">Run or ensemble member: which realization of the model?</span><span class="eg-line">e.g., r1i1p1f1, r2i1p1f1, or other ensemble members depending on the model archive.</span></li>
+<li><span class="main-line">Downscaling approach: how do we translate coarse projections to the regional scale?</span><span class="eg-line">e.g., delta method, statistical downscaling, and dynamical downscaling.</span></li>
+<li><span class="main-line">Depth and variable layer: which part of the ocean and which variable?</span><span class="eg-line">e.g., surface, mid-water, and seafloor layers for temperature, oxygen, salinity, currents, and related predictors.</span></li>
+</ul>
 
 ---
 
-## Biological and SDM uncertainty {background-color="white" .technical-white}
+## Biological and species distribution model uncertainty {background-color="white" .technical-white}
 
 ::: {.sb5-header}
 IKI - Save the Blue 5 (SB5)
 :::
 
-### Biological and SDM uncertainty {.slide-title}
+### Biological and species distribution model uncertainty {.slide-title}
 
 - Records: where do we have data, and where are gaps?
 - Sampling bias: absent, or just not sampled?
@@ -102,13 +104,13 @@ IKI - Save the Blue 5 (SB5)
 
 ---
 
-## What SDMs show {background-color="white" .technical-white}
+## What species distribution models show {background-color="white" .technical-white}
 
 ::: {.sb5-header}
 IKI - Save the Blue 5 (SB5)
 :::
 
-### SDMs estimate environmental suitability {.slide-title}
+### Species distribution models estimate environmental suitability {.slide-title}
 
 They do not directly show:
 

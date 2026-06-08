@@ -1,23 +1,23 @@
-## Status of biological data for SDMs {background-image="../../shared/assets/images/panama-taxonomic-workshop-2025.jpg" background-size="cover" background-position="center" .section-photo}
+## Status of biological data for species distribution models {background-image="../../shared/assets/images/panama-taxonomic-workshop-2025.jpg" background-size="cover" background-position="center" .section-photo}
 
 <div class="section-title-panel">
-<h2>Status of biological data for SDMs</h2>
+<h2>Status of biological data for species distribution models</h2>
 <p>Compiled datasets, data gaps, and readiness for modeling</p>
 </div>
 
 ---
 
-## Status of biological data for SDMs {background-color="white" .technical-white}
+## Status of biological data for species distribution models {background-color="white" .technical-white}
 
 <div class="sb5-header">IKI - Save the Blue 5 (SB5)</div>
-<h2 class="slide-title">Status of biological data for SDMs</h2>
+<h2 class="slide-title">Status of biological data for species distribution models</h2>
 
-The biological data workflow preserves, harmonizes, quality-controls, and exports telemetry and observation records before SDM modeling.
+The biological data workflow preserves, harmonizes, quality-controls, and exports telemetry and observation records before species distribution modeling.
 
 - Raw data are kept auditable and unchanged
 - Telemetry and observations are standardized separately
-- SDM-ready files preserve provenance and QC decisions
-- Final model inputs keep marine SDM-compatible coordinates
+- Model-ready files preserve provenance and quality-control decisions
+- Final model inputs keep marine species distribution modeling-compatible coordinates
 - Viewer: [Megafauna data viewer Shiny app](https://isaakbm-megafauna-data-viewer.share.connect.posit.cloud/)
 
 <div class="repo-note">Local reference: shared/references/repos/pre-sdm-bio-data-prep-readme.md</div>
@@ -72,7 +72,7 @@ The goal is to make data strengths and limitations visible before modeling decis
 
 <div class="metric-grid">
 <div><strong>42,475</strong> filtered records in viewer</div>
-<div><strong>8</strong> SB5 species in current app view</div>
+<div><strong>8</strong> Blue 5 species in current app view</div>
 <div><strong>71</strong> data sources</div>
 <div><strong>2</strong> data types: telemetry and observations</div>
 </div>

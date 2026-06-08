@@ -8,7 +8,7 @@ The next phase should expand uncertainty representation and strengthen the conne
 - More climate models
 - More climate scenarios
 - More realizations and ensemble summaries
-- Better uncertainty propagation into SDMs
+- Better uncertainty propagation into species distribution models
 - Improved biological coverage and sampling-bias treatment
 - Clearer interpretation guidance for planning use
 
@@ -45,7 +45,7 @@ The workshop is not only about showing model outputs. It is about making the wor
 <div>Shared framing</div>
 <div>Physical products</div>
 <div>Biological data readiness</div>
-<div>First-generation SDMs</div>
+<div>First-generation species distribution models</div>
 <div>Focused feedback</div>
 </div>
 
