@@ -3,7 +3,7 @@
 <div class="sb5-header">IKI - Save the Blue 5 (SB5)</div>
 <h2 class="slide-title">Future work</h2>
 
-The next phase should expand uncertainty representation and strengthen the connection between model outputs and conservation decisions.
+The next phase should expand uncertainty representation and strengthen the connection between model outputs and conservation decisions
 
 - More climate models
 - More climate scenarios
@@ -39,7 +39,7 @@ The next phase should expand uncertainty representation and strengthen the conne
 <div class="sb5-header">IKI - Save the Blue 5 (SB5)</div>
 <h2 class="slide-title">Take-home message</h2>
 
-The workshop is not only about showing model outputs. It is about making the workflow transparent enough that experts can improve the data, interpret the models responsibly, and identify the next most important steps.
+The workshop is not only about showing model outputs; it is about making the workflow transparent enough that experts can improve the data, interpret the models responsibly, and identify the next most important steps
 
 <div class="pipeline">
 <div>Shared framing</div>

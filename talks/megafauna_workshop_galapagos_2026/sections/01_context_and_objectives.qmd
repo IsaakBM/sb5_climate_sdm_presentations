@@ -4,7 +4,7 @@
 <div class="workflow-transition-panel">
 <h2 class="slide-title">From data to climate-informed species distribution models</h2>
 
-This presentation connects physical ocean projections, biological observations, and first-generation species distribution models into a transparent workflow for expert review.
+This presentation connects physical ocean projections, biological observations, and first-generation species distribution models into a transparent workflow for expert review
 
 <div class="pipeline">
 <div>Physical ocean data</div>
@@ -14,7 +14,7 @@ This presentation connects physical ocean projections, biological observations, 
 <div>Planning interpretation</div>
 </div>
 
-The intended outcome is focused feedback on data gaps, species/model interpretation, and realistic improvements over the next year.
+The intended outcome is focused feedback on data gaps, species/model interpretation, and realistic improvements over the next year
 </div>
 
 <div class="sb5-footer">isaaksonbm · ibrito@conservation.org</div>

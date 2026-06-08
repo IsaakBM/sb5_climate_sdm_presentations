@@ -12,7 +12,7 @@
 <div class="sb5-header">IKI - Save the Blue 5 (SB5)</div>
 <h2 class="slide-title">Status of biological data for species distribution models</h2>
 
-The biological data workflow preserves, harmonizes, quality-controls, and exports telemetry and observation records before species distribution modeling.
+The biological data workflow preserves, harmonizes, quality-controls, and exports telemetry and observation records before species distribution modeling
 
 - Raw data are kept auditable and unchanged
 - Telemetry and observations are standardized separately
@@ -63,7 +63,7 @@ Use the viewer to inspect:
 <div class="sb5-header">IKI - Save the Blue 5 (SB5)</div>
 <h2 class="slide-title">Data readiness is not uniform</h2>
 
-The goal is to make data strengths and limitations visible before modeling decisions are made.
+The goal is to make data strengths and limitations visible before modeling decisions are made
 
 - Stronger data support more confident model interpretation
 - Sparse data require simpler or more cautious interpretation

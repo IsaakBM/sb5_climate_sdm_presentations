@@ -12,7 +12,7 @@
 <div class="sb5-header">IKI - Save the Blue 5 (SB5)</div>
 <h2 class="slide-title">Physical modeling and downscaling framework</h2>
 
-This section summarizes the ocean products and workflow logic used to connect present-day baselines and future climate conditions to species distribution model predictors.
+This section summarizes the ocean products and workflow logic used to connect present-day baselines and future climate conditions to species distribution model predictors
 
 - Contemporary ocean conditions and future climate projections
 - Horizontal and vertical products relevant to Blue 5 species
@@ -32,7 +32,7 @@ This section summarizes the ocean products and workflow logic used to connect pr
 <div class="two-col-visual">
 <div>
 
-Physical models represent the ocean, atmosphere, land, and ice on numerical grids. They simulate energy and mass exchange through time, producing variables that can be summarized for ecological modeling.
+Physical models represent the ocean, atmosphere, land, and ice on numerical grids; they simulate energy and mass exchange through time, producing variables that can be summarized for ecological modeling
 
 - horizontal grid
 - vertical layers
@@ -64,7 +64,7 @@ Physical models represent the ocean, atmosphere, land, and ice on numerical grid
 <div>Species distribution model predictor extraction</div>
 </div>
 
-Current workflow materials are private but documented in the CESM Large Ensemble ocean downscaling repository.
+Current workflow materials are private but documented in the CESM Large Ensemble ocean downscaling repository
 
 <div class="repo-note">Local reference: shared/references/repos/cesmle-ocn-fetch-readme.md</div>
 
@@ -109,7 +109,7 @@ Use the viewer to inspect:
 <div class="sb5-header">IKI - Save the Blue 5 (SB5)</div>
 <h2 class="slide-title">Future work for physical products</h2>
 
-The current viewer and pipeline provide a transparent foundation. The next step is to expand the ensemble and make uncertainty easier to interpret.
+The current viewer and pipeline provide a transparent foundation; the next step is to expand the ensemble and make uncertainty easier to interpret
 
 - More model families
 - More climate scenarios

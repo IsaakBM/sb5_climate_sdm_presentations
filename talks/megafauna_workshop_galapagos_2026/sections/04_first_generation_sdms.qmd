@@ -12,7 +12,7 @@
 <div class="sb5-header">IKI - Save the Blue 5 (SB5)</div>
 <h2 class="slide-title">First generation of species distribution models</h2>
 
-These outputs are preliminary to intermediate products intended to guide the next phase of model improvement.
+These outputs are preliminary to intermediate products intended to guide the next phase of model improvement
 
 - Present initial model outputs
 - Review performance and ecological plausibility
@@ -29,7 +29,7 @@ These outputs are preliminary to intermediate products intended to guide the nex
 <div class="sb5-header">IKI - Save the Blue 5 (SB5)</div>
 <h2 class="slide-title">Interpreting first-generation outputs</h2>
 
-When reviewing early species distribution model outputs, focus on whether patterns are ecologically plausible, data-supported, and useful for planning conversations.
+When reviewing early species distribution model outputs, focus on whether patterns are ecologically plausible, data-supported, and useful for planning conversations
 
 - What patterns seem robust?
 - What patterns need caution?
@@ -45,7 +45,7 @@ When reviewing early species distribution model outputs, focus on whether patter
 <div class="sb5-header">IKI - Save the Blue 5 (SB5)</div>
 <h2 class="slide-title">Feedback should be specific</h2>
 
-The most useful feedback identifies what can realistically improve the final outputs within the project timeline.
+The most useful feedback identifies what can realistically improve the final outputs within the project timeline
 
 <div class="two-col">
 <div>

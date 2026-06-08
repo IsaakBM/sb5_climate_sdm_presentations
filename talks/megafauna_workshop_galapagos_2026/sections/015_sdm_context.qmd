@@ -3,7 +3,7 @@
 <div class="sb5-header">IKI - Save the Blue 5 (SB5)</div>
 <h2 class="slide-title">Why use species distribution models for Blue 5?</h2>
 
-Species distribution models are useful here because they integrate species information with physical and biogeochemical ocean conditions to estimate where suitable habitat occurs now, and how that suitability may change under climate change.
+Species distribution models are useful here because they integrate species information with physical and biogeochemical ocean conditions to estimate where suitable habitat occurs now, and how that suitability may change under climate change
 
 <div class="sdm-bridge-flow">
 <div class="sdm-inputs">
@@ -17,9 +17,9 @@ Species distribution models are useful here because they integrate species infor
 <div class="sdm-node sdm-impact">Climate change impacts</div>
 </div>
 
-- Species distribution models link species occurrence records with the ocean conditions that shape habitat suitability.
-- They allow us to translate physical climate change into potential biological responses.
-- For Blue 5, this helps identify where suitable habitats may persist, decline, or shift in the future.
+- Species distribution models link species occurrence records with the ocean conditions that shape habitat suitability
+- They allow us to translate physical climate change into potential biological responses
+- For Blue 5, this helps identify where suitable habitats may persist, decline, or shift in the future
 
 ---
 
@@ -28,9 +28,9 @@ Species distribution models are useful here because they integrate species infor
 <div class="sb5-header">IKI - Save the Blue 5 (SB5)</div>
 <h2 class="slide-title">Our baseline species distribution model framework</h2>
 
-We use an ensemble species distribution modeling approach that combines multiple algorithms, from classical statistical models to machine-learning methods.
+We use an ensemble species distribution modeling approach that combines multiple algorithms, from classical statistical models to machine-learning methods
 
-- Ensemble of 10 algorithms, including GLMs, GAMs, MaxEnt, Random Forest, and Boosted Regression Trees.
+- Ensemble of 10 algorithms, including GLMs, GAMs, MaxEnt, Random Forest, and Boosted Regression Trees
 
 <div class="sdm-equation">
 
@@ -56,14 +56,14 @@ $$
 <div class="sdm-predictor-groups">
 <div>
 <strong>State variables</strong>
-<p>Temperature, salinity, dissolved oxygen, chlorophyll, and current velocity.</p>
+<p>Temperature, salinity, dissolved oxygen, chlorophyll, and current velocity</p>
 </div>
 <div>
 <strong>Ocean variability predictors</strong>
-<p>Ocean front frequency, upwelling, and ENSO.</p>
+<p>Ocean front frequency, upwelling, and ENSO</p>
 </div>
 </div>
 
 <div class="sdm-note">
-Conceptual representation of the predictors used to estimate probability of occurrence or habitat suitability. This is not the exact fitted formula for every algorithm in the ensemble.
+Conceptual representation of the predictors used to estimate probability of occurrence or habitat suitability; this is not the exact fitted formula for every algorithm in the ensemble
 </div>
