@@ -260,12 +260,12 @@ $presentation-font-size-root: 24px;
   bottom: 1.55rem;
   transform: translateX(-50%);
   width: min(31rem, 62%);
-  background: rgba(250, 253, 254, 0.78);
-  border: 1px solid rgba(255, 255, 255, 0.72);
+  background: rgba(255, 255, 255, 0.94);
+  border: 1px solid rgba(255, 255, 255, 0.92);
   border-top: 4px solid rgba(21, 148, 210, 0.86);
   box-shadow: 0 16px 34px rgba(0, 35, 55, 0.18);
   padding: 0.38rem 1rem 0.48rem;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(2px);
 }
 
 .title-logo-strip {
@@ -675,11 +675,11 @@ $presentation-font-size-root: 24px;
   padding: 0.58rem 0.65rem;
   background: #f6f9fb;
   border-left: 7px solid $sb5-blue;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .sdm-equation mjx-container {
-  font-size: 58% !important;
+  font-size: 56% !important;
   margin: 0 !important;
 }
 

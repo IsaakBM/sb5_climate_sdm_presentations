@@ -35,17 +35,20 @@ We use an ensemble species distribution modeling approach that combines multiple
 <div class="sdm-equation">
 
 $$
+\begin{aligned}
 \text{logit}(p_i) =
-\alpha +
+&\alpha +
 \beta_T T_i +
 \beta_S S_i +
 \beta_O O_{2i} +
 \beta_{Chl} Chl_i +
-\beta_V V_i +
+\beta_V V_i \\
+&+
 \beta_F FrontFreq_i +
 \beta_U Upw_i +
 \beta_E ENSO_t +
 \varepsilon_i
+\end{aligned}
 $$
 
 </div>

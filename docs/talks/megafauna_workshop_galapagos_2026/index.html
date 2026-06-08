@@ -28,7 +28,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-07afc597f2ef5885cd8992acaeba4952.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-d0148281874205efd7d48f3128ec7371.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -419,17 +419,20 @@ Our baseline species distribution model framework
 </ul>
 <div class="sdm-equation">
 <p><span class="math display">\[
+\begin{aligned}
 \text{logit}(p_i) =
-\alpha +
+&amp;\alpha +
 \beta_T T_i +
 \beta_S S_i +
 \beta_O O_{2i} +
 \beta_{Chl} Chl_i +
-\beta_V V_i +
+\beta_V V_i \\
+&amp;+
 \beta_F FrontFreq_i +
 \beta_U Upw_i +
 \beta_E ENSO_t +
 \varepsilon_i
+\end{aligned}
 \]</span></p>
 </div>
 <div class="sdm-predictor-groups">
