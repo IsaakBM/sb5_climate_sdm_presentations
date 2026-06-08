@@ -16,6 +16,9 @@
       letter-spacing: 2px;
       text-transform: uppercase;
     }
+    .band-title.compact {
+      font-size: 24px;
+    }
     .climate .band-title { fill: #1594d2; }
     .regional .band-title { fill: #007f8f; }
     .biological .band-title { fill: #4d8f70; }
@@ -34,9 +37,12 @@
     }
     .node text {
       fill: #4e5558;
-      font-size: 28px;
+      font-size: 23px;
       font-weight: 850;
       text-anchor: middle;
+    }
+    .node.long text {
+      font-size: 22px;
     }
   </style>
   <defs>
@@ -64,20 +70,23 @@
     <rect class="band-bg" x="0" y="0" width="1180" height="112"/>
     <rect class="band-stripe" x="0" y="0" width="10" height="112"/>
     <text class="band-title" x="42" y="67">Regional translation</text>
-    <path class="connector" d="M632 56 H732" marker-end="url(#arrow-teal)"/>
-    <path class="connector" d="M902 56 H952" marker-end="url(#arrow-teal)"/>
-    <g class="node" transform="translate(430 26)"><rect width="190" height="60" rx="30"/><text x="95" y="38">Downscaling</text></g>
-    <g class="node" transform="translate(745 26)"><rect width="145" height="60" rx="30"/><text x="72" y="38">Depth layer</text></g>
-    <g class="node wide" transform="translate(965 26)"><rect width="185" height="60" rx="30"/><text x="92" y="38">Variable choice</text></g>
+    <path class="connector" d="M642 56 H697" marker-end="url(#arrow-teal)"/>
+    <path class="connector" d="M892 56 H917" marker-end="url(#arrow-teal)"/>
+    <g class="node" transform="translate(430 26)"><rect width="200" height="60" rx="30"/><text x="100" y="38">Downscaling</text></g>
+    <g class="node" transform="translate(710 26)"><rect width="170" height="60" rx="30"/><text x="85" y="38">Depth layer</text></g>
+    <g class="node long" transform="translate(930 26)"><rect width="220" height="60" rx="30"/><text x="110" y="38">Variable choice</text></g>
   </g>
   <g class="band biological" transform="translate(0 284)">
     <rect class="band-bg" x="0" y="0" width="1180" height="112"/>
     <rect class="band-stripe" x="0" y="0" width="10" height="112"/>
-    <text class="band-title" x="42" y="67">Biological interpretation</text>
-    <path class="connector" d="M577 56 H677" marker-end="url(#arrow-green)"/>
-    <path class="connector" d="M872 56 H937" marker-end="url(#arrow-green)"/>
-    <g class="node" transform="translate(430 26)"><rect width="135" height="60" rx="30"/><text x="68" y="38">Records</text></g>
-    <g class="node" transform="translate(690 26)"><rect width="170" height="60" rx="30"/><text x="85" y="38">SDM algorithm</text></g>
-    <g class="node wide" transform="translate(950 26)"><rect width="190" height="60" rx="30"/><text x="95" y="38">Conservation use</text></g>
+    <text class="band-title compact" x="42" y="50">
+      <tspan x="42" dy="0">Biological</tspan>
+      <tspan x="42" dy="30">interpretation</tspan>
+    </text>
+    <path class="connector" d="M587 56 H652" marker-end="url(#arrow-green)"/>
+    <path class="connector" d="M897 56 H917" marker-end="url(#arrow-green)"/>
+    <g class="node" transform="translate(430 26)"><rect width="145" height="60" rx="30"/><text x="72" y="38">Records</text></g>
+    <g class="node long" transform="translate(665 26)"><rect width="220" height="60" rx="30"/><text x="110" y="38">SDM algorithm</text></g>
+    <g class="node long" transform="translate(930 26)"><rect width="225" height="60" rx="30"/><text x="112" y="38">Conservation use</text></g>
   </g>
 </svg>

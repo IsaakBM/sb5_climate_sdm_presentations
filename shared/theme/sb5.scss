@@ -116,7 +116,8 @@ $presentation-font-size-root: 24px;
 .technical-white {
   background: #ffffff;
   color: $sb5-dark;
-  padding: 1.25rem 1.65rem 1.8rem 1.65rem;
+  padding: 1.15rem 1.65rem 3.05rem 1.65rem;
+  box-sizing: border-box;
 }
 
 .technical-white h2 {
@@ -323,7 +324,7 @@ $presentation-font-size-root: 24px;
 
 .app-demo .screenshot {
   width: 100%;
-  max-height: 440px;
+  max-height: 380px;
   object-fit: contain;
 }
 
@@ -350,7 +351,7 @@ $presentation-font-size-root: 24px;
 
 .two-col-visual img {
   width: 100%;
-  max-height: 500px;
+  max-height: 410px;
   object-fit: contain;
 }
 
@@ -366,7 +367,7 @@ $presentation-font-size-root: 24px;
   background: #f4f7f9;
   padding: 0.65rem 0.75rem;
   min-height: 3.2rem;
-  font-size: 0.82em;
+  font-size: 0.76em;
 }
 
 .metric-grid strong {
@@ -398,7 +399,7 @@ $presentation-font-size-root: 24px;
 .repo-note {
   font-size: 0.68em;
   color: $sb5-gray;
-  margin-top: 0.6rem;
+  margin-top: 0.45rem;
 }
 
 .framing-lead {
@@ -439,7 +440,7 @@ $presentation-font-size-root: 24px;
   grid-template-columns: 0.78fr 1.22fr;
   gap: 0.85rem;
   align-items: start;
-  margin-top: 0.6rem;
+  margin-top: 0.42rem;
 }
 
 .projection-layout .definition-card {
@@ -452,7 +453,8 @@ $presentation-font-size-root: 24px;
 }
 
 .projection-figure {
-  margin-top: 0.48rem;
+  margin-top: 0.38rem;
+  margin-bottom: 0.15rem;
   width: 100%;
 }
 
@@ -463,7 +465,9 @@ $presentation-font-size-root: 24px;
 
 .projection-figure img {
   display: block;
-  width: 96%;
+  width: auto;
+  max-width: 92%;
+  max-height: 9.1rem;
   height: auto;
   aspect-ratio: 1120 / 896;
   object-fit: contain;
@@ -474,11 +478,12 @@ $presentation-font-size-root: 24px;
 }
 
 .projection-figure p {
-  margin: 0.2rem 0 0 0;
+  margin: 0.18rem auto 0 auto;
   color: #7a858c;
-  font-size: 0.36em;
+  font-size: 0.32em;
   line-height: 1.1;
   text-align: center;
+  max-width: 92%;
 }
 
 .projection-figure a {
@@ -575,9 +580,9 @@ $presentation-font-size-root: 24px;
 }
 
 .key-message {
-  margin-top: 0.85rem;
+  margin-top: 0.6rem;
   color: $sb5-navy;
-  font-size: 1em;
+  font-size: 0.92em;
   font-weight: 800;
 }
 
