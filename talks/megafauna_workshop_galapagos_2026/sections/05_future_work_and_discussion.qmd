@@ -1,6 +1,6 @@
 ## Future work {background-color="white" .technical-white}
 
-<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
+<div class="sb5-header">IKI - Save the Blue 5 (SB5)</div>
 <h2 class="slide-title">Future work</h2>
 
 The next phase should expand uncertainty representation and strengthen the connection between model outputs and conservation decisions.
@@ -18,7 +18,7 @@ The next phase should expand uncertainty representation and strengthen the conne
 
 ## Discussion questions {background-color="white" .technical-white}
 
-<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
+<div class="sb5-header">IKI - Save the Blue 5 (SB5)</div>
 <h2 class="slide-title">Discussion questions</h2>
 
 <div class="questions">
@@ -36,7 +36,7 @@ The next phase should expand uncertainty representation and strengthen the conne
 
 ## Take-home message {background-color="white" .technical-white}
 
-<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
+<div class="sb5-header">IKI - Save the Blue 5 (SB5)</div>
 <h2 class="slide-title">Take-home message</h2>
 
 The workshop is not only about showing model outputs. It is about making the workflow transparent enough that experts can improve the data, interpret the models responsibly, and identify the next most important steps.

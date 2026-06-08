@@ -1,35 +1,23 @@
-## Shared framing: climate projections, uncertainty, and interpretation {background-image="../../shared/assets/images/whale-shark-close.jpg" background-size="cover" background-position="center" .section-photo}
+## Shared framing: how to read the models {background-image="../../shared/assets/images/whale-shark-close.jpg" background-size="cover" background-position="center" .section-photo .shared-framing-hero}
 
-<div class="section-title-panel">
+<div class="shared-framing-panel">
 <h2>Shared framing</h2>
-<p>How to read the models</p>
+<h3>How to read the models</h3>
+<p>Before using maps or SDM outputs, we need a shared way to interpret them.</p>
+<ul>
+<li>Projections are “what-if” futures</li>
+<li>Uncertainty comes from the full workflow</li>
+<li>SDMs estimate habitat suitability, not certainty</li>
+<li>Outputs are decision-support tools, not final answers</li>
+</ul>
 </div>
-
----
-
-## Shared framing {background-color="white" .technical-white}
-
-::: {.sb5-header}
-IKI - Salvando a los Cinco Azules (SB5)
-:::
-
-### How to read the models {.slide-title}
-
-::: {.framing-lead}
-Before using maps or SDM outputs, we need a shared way to interpret them.
-:::
-
-- Projections are “what-if” futures
-- Uncertainty comes from the full workflow
-- SDMs estimate suitability, not certainty
-- Outputs are decision-support tools, not final answers
 
 ---
 
 ## Projection not prediction {background-color="white" .technical-white}
 
 ::: {.sb5-header}
-IKI - Salvando a los Cinco Azules (SB5)
+IKI - Save the Blue 5 (SB5)
 :::
 
 ### Projection ≠ prediction {.slide-title}
@@ -63,7 +51,7 @@ For this workshop, climate projections help us explore plausible futures, not id
 ## Where uncertainty enters {background-color="white" .technical-white}
 
 ::: {.sb5-header}
-IKI - Salvando a los Cinco Azules (SB5)
+IKI - Save the Blue 5 (SB5)
 :::
 
 ### Where uncertainty enters {.slide-title}
@@ -85,7 +73,7 @@ Uncertainty is not failure; it tells us where to be cautious.
 ## Climate-side uncertainty {background-color="white" .technical-white}
 
 ::: {.sb5-header}
-IKI - Salvando a los Cinco Azules (SB5)
+IKI - Save the Blue 5 (SB5)
 :::
 
 ### Climate-side uncertainty {.slide-title}
@@ -101,7 +89,7 @@ IKI - Salvando a los Cinco Azules (SB5)
 ## Biological and SDM uncertainty {background-color="white" .technical-white}
 
 ::: {.sb5-header}
-IKI - Salvando a los Cinco Azules (SB5)
+IKI - Save the Blue 5 (SB5)
 :::
 
 ### Biological and SDM uncertainty {.slide-title}
@@ -117,7 +105,7 @@ IKI - Salvando a los Cinco Azules (SB5)
 ## What SDMs show {background-color="white" .technical-white}
 
 ::: {.sb5-header}
-IKI - Salvando a los Cinco Azules (SB5)
+IKI - Save the Blue 5 (SB5)
 :::
 
 ### SDMs estimate environmental suitability {.slide-title}
@@ -141,7 +129,7 @@ Suitable ≠ occupied ≠ important habitat
 ## How we use the outputs {background-color="white" .technical-white}
 
 ::: {.sb5-header}
-IKI - Salvando a los Cinco Azules (SB5)
+IKI - Save the Blue 5 (SB5)
 :::
 
 ### Use model outputs as decision-support {.slide-title}
@@ -163,7 +151,7 @@ Interpret outputs with expert knowledge, local context, and governance feasibili
 ## Workshop rule {background-color="white" .technical-white}
 
 ::: {.sb5-header}
-IKI - Salvando a los Cinco Azules (SB5)
+IKI - Save the Blue 5 (SB5)
 :::
 
 ### The goal is not to find “the perfect map” {.slide-title}

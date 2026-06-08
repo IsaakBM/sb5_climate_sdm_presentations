@@ -21,19 +21,20 @@ format:
 ## {background-image="../../shared/assets/images/whale-shark-wide.jpg" background-size="cover" background-position="center" .title-photo}
 
 <div class="title-panel">
-<h1>Megafauna Workshop<br>Galápagos 2026</h1>
-<p>Climate projections, biological data readiness, and first-generation SDMs</p>
+<h1>Marine Megafauna and<br>Climate Change Modeling Workshop</h1>
+<p class="title-subtitle">Save the Blue Five | Santa Cruz, Galápagos | June 8-12, 2026</p>
+<p class="title-description">Climate projections, biological data readiness, and first-generation SDMs</p>
 </div>
 
-<div class="title-bottom-band">
-<img src="../../shared/assets/logos/sb5-logo-main.png" class="sb5-title-logo" alt="Save the Blue Five logo">
+<div class="title-institution-panel">
 <div class="title-meta">
 <strong>Isaac Brito-Morales, PhD</strong><br>
 June 2026
 </div>
-<div class="title-partners">
-<img src="../../shared/assets/logos/conservation-international.png" alt="Conservation International logo">
-<img src="../../shared/assets/logos/ucsb.png" alt="UCSB logo">
+<div class="title-logo-strip">
+<img src="../../shared/assets/logos/title/save-blue-five-title.png" class="sb5-title-logo" alt="Save the Blue Five logo">
+<img src="../../shared/assets/logos/title/conservation-international-title.png" class="ci-title-logo" alt="Conservation International logo">
+<img src="../../shared/assets/logos/title/ucsb-title.png" class="ucsb-title-logo" alt="UCSB logo">
 </div>
 </div>
 
@@ -42,6 +43,8 @@ June 2026
 {{< include sections/00_shared_framing.qmd >}}
 
 {{< include sections/01_context_and_objectives.qmd >}}
+
+{{< include sections/015_sdm_context.qmd >}}
 
 {{< include sections/02_physical_modeling_downscaling.qmd >}}
 

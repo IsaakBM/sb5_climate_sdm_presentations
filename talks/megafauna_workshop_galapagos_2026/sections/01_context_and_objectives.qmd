@@ -1,6 +1,6 @@
 ## From data to climate-informed SDMs {background-color="white" .technical-white}
 
-<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
+<div class="sb5-header">IKI - Save the Blue 5 (SB5)</div>
 <h2 class="slide-title">From data to climate-informed SDMs</h2>
 
 This presentation connects physical ocean projections, biological observations, and first-generation species distribution models into a transparent workflow for expert review.
@@ -21,7 +21,7 @@ The intended outcome is focused feedback on data gaps, species/model interpretat
 
 ## Workshop inputs already exist {background-color="white" .technical-white}
 
-<div class="sb5-header">IKI - Salvando a los Cinco Azules (SB5)</div>
+<div class="sb5-header">IKI - Save the Blue 5 (SB5)</div>
 <h2 class="slide-title">Workshop inputs already exist</h2>
 
 <div class="two-col-visual">
